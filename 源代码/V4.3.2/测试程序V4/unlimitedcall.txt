@@ -1,0 +1,47 @@
+int par2(int a, int b){
+	return (2 * a + b);
+}
+
+int par3(int a, int b, int c)
+
+{
+
+	return (3 * a + b + c);
+
+}
+
+int par4(int a, int b, int c, int d)
+
+{
+
+	return (4 * a + b + c + d);
+
+}
+
+int par5(int a, int b, int c, int d, int e)
+
+{
+
+	return (5 * a + b + c + d + e);
+
+}
+
+int par10(int a1, int a2, int a3, int a4, int a5, int a6, int a7, int a8, int a9, int a10)
+
+{
+
+	return (a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a10);
+
+}
+
+void main()
+
+{
+
+	int a;
+
+	a = par5(par2(1, 1), par2(1, 1) + 1, par10(1, 1, 1, 1, 1, 1, 1, 1, 1, 1), par2(1, 1), par4(1, 1, 1, par3(1, 1, 1)));
+
+	printf(a);
+
+}

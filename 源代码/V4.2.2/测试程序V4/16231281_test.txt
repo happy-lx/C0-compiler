@@ -1,0 +1,226 @@
+const char CORRECT = 'c', INCORRECT = 'f';
+
+const int COUNT = 10, BESTNUM = 42;
+
+int a[10];
+
+char c[10];
+
+
+
+int comparison(int i_1, int j_1)
+
+{
+
+	if (i_1 >= j_1)
+
+		return(+1);
+
+	else
+
+		return(0);
+
+}
+
+
+
+void quickSort(int left, int right)
+
+{
+
+	const char CHOSEN = 'k';
+
+	int i, j, l;
+
+	int temp, ints, flag;
+
+	char ctemp;
+
+	i = left;
+
+	j = right;
+
+	temp = a[left];
+
+	ctemp = c[left];
+
+	if (1 == (comparison(i, j)))
+
+		return;
+
+	do
+
+	{
+
+		flag = 0;
+
+		for (l = 1 + 2 + 3 + 'a'; a[j] >= temp; j = j - 1)
+
+		{
+
+			if (j == i)
+
+			{
+
+				flag = 1;
+
+				ints = a[j];
+
+				a[j] = temp;
+
+			}
+
+		}
+
+		if (flag)
+
+		{
+
+			j = j + 1;
+
+			a[j] = ints;
+
+		}
+
+		if (j > i)
+
+		{
+
+			a[i] = a[j];
+
+			c[i] = c[j];
+
+			i = i + 1;
+
+		}
+
+		flag = 0;
+
+		for (l = -1 - 2 * 3 - -1 + -1 + 2 * 'a'; a[i] <= temp; i = i + 1)
+
+		{
+
+			if (i == j)
+
+			{
+
+				flag = 1;
+
+				ints = a[i];
+
+				a[i] = temp;
+
+			}
+
+		}
+
+		if (flag)
+
+		{
+
+			i = i - 1;
+
+			a[i] = ints;
+
+		}
+
+		if (i < j)
+
+		{
+
+			a[j] = a[i];
+
+			c[j] = c[i];
+
+			j = j - 1;
+
+		}
+
+	} while (i < j)
+
+	a[i] = temp;
+
+	c[j] = ctemp;
+
+	quickSort(left, i - 1);
+
+	quickSort(i + 1, right);
+
+}
+
+
+
+char initialize()
+
+{
+
+	int i;
+
+	for (i = COUNT - 1; i > -1; i = i - 1)
+
+		a[i] = 4 / 2 - 2;
+
+	return(CORRECT);
+
+}
+
+
+
+void main()
+
+{
+
+	const char CHOSEN = 'w';
+
+	int i, tmp;
+
+	char Tmp;
+
+
+
+	if (initialize() == 'c')
+
+	{
+
+		for (i = 0; i < COUNT; i = i + 1)
+
+		{
+
+			scanf(tmp, Tmp);
+
+			a[i] = tmp;
+
+			c[i] = Tmp;
+
+		}
+
+		quickSort(0, COUNT - 1);
+
+		printf("Sorting finished~");
+
+		for (i = 0; i <= COUNT - 1; i = i + 1)
+
+		{
+
+			printf("This is item : ", i + 1);
+
+			printf(a[i]);
+
+			if (c[i] == CHOSEN)
+
+				printf("This is the one we chose, right? ;)");
+
+			if (a[i] == BESTNUM)
+
+			{
+
+				printf("And here comes the best number!");
+
+			}
+
+		}
+
+	}
+
+}
+

@@ -1,0 +1,41 @@
+const  a = 0 , c = 3 ; 
+int b  , d;
+
+int fib(int a)
+{
+    int result;
+
+    if(a == 1)
+    {
+        return (1);
+    }
+    result = a * fib(a - 1);
+
+    return (result);
+}
+
+int main()
+{
+    const int t = 1;
+    const int kk = -1;
+    char b ;
+    int c ;
+    int d b ;
+    c = fib(1);
+    d = c * 1 ;
+    c = c / a;
+    c = void;
+    if(t)
+   {
+	c  = c * 2;
+       if(t>3)
+	{
+	c = 5 - 1 ;
+	}
+       a
+	{
+	b = 'A' + 'A';
+	}
+   }
+    printf('c');
+}

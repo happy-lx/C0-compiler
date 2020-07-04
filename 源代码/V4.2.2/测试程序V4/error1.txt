@@ -1,0 +1,15 @@
+
+void main(){
+	const int g_c_int = 1, char g_c_char = 'c';	
+	const int leading_zero = 001;	
+	const char no_qmark = a;	
+	const g_c_chare = 'e'; 		
+	const char g_c_char_notsurpport = '?'	
+	const char c;	
+	int g_v_int_b = 1;		
+	char g_v_char_arr[10], int g_v_int_d;		
+	int illegal_len[-12];	
+	int illegal?, _1, ______, 0inhg;;	
+	int o;
+	char o, O;	
+}

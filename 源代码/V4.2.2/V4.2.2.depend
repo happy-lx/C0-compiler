@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1590145109 source:e:\编译原理程序记录\v4.2.2\grammer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+	"global.h"
+	"grammer.h"
+
+1587265705 e:\编译原理程序记录\v4.2.2\lex.h
+	"global.h"
+
+1589614821 e:\编译原理程序记录\v4.2.2\global.h
+	<stdio.h>
+	<stdlib.h>
+
+1587984535 e:\编译原理程序记录\v4.2.2\grammer.h
+	"global.h"
+
+1590224847 source:e:\编译原理程序记录\v4.2.2\lex.cpp
+	"global.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+
+1589875547 source:e:\编译原理程序记录\v4.2.2\main.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	"optimizer.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588588721 e:\编译原理程序记录\v4.2.2\symbol.h
+	"global.h"
+
+1587984534 e:\编译原理程序记录\v4.2.2\semantic.h
+	"global.h"
+
+1588589045 e:\编译原理程序记录\v4.2.2\midcode.h
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	<vector>
+
+1590315639 e:\编译原理程序记录\v4.2.2\mips.h
+
+1590315639 e:\编译原理程序记录\v4.2.2\optimizer.h
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1590139447 source:e:\编译原理程序记录\v4.2.2\midcode.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stack>
+
+1590142178 source:e:\编译原理程序记录\v4.2.2\mips.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<algorithm>
+
+1590135102 source:e:\编译原理程序记录\v4.2.2\optimizer.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	"optimizer.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588588721 source:e:\编译原理程序记录\v4.2.2\symbol.cpp
+	"global.h"
+	"symbol.h"
+	"grammer.h"
+	"lex.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1590315639 source:e:\编译原理程序记录\v4.2.2\semantic.cpp
+	"symbol.h"
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+

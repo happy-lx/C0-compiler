@@ -1,0 +1,81 @@
+const int pi=-3;
+const int e= 2;
+const int c=1024,d=10;
+const char A='A',B='B';
+const char C='C';
+const char D='D';
+int x[100],y;
+int z;
+char a[20],b[20];
+char f;
+int gcd(int a,int b)
+{
+    if(a-a/b*b==0) return (b);
+    return (gcd(b,a-a/b*b)) ;
+}
+void print(char name,int num,char c)
+{
+    printf("name is ",name);
+    printf("the score is ");
+    printf(num);
+    printf("grade ",c);
+}
+char get_id(int n)
+{
+    
+    if(n==1) return ('A');
+    if(n==2) return ('B');
+    if(n==3) return ('C');
+    else return ('D');
+}
+void main()
+{
+    int i;
+    int j;
+    char a_,_A;
+    int chengji[100];
+    char s[100];
+    char name[100];
+    scanf(s);
+    scanf(name);
+    for(i=0;chengji[i];i=i+1)
+    {
+        chengji[i]=s[i]-a;
+    }
+    
+    do
+    {
+        z=z+chengji[i];
+        j=j+1;
+        
+    }while(j<i)
+    if(z<((4-2)*(4+2)*(100/20)-10+10))
+    {
+        print(name,z,get_id(4));
+    } 
+    if(z>=(get_id(4)-'A')*15)
+    {
+        if(z!=60)
+        {
+            if(z<70)
+                print(name,z,get_id(3));
+        }
+    } 
+    if(z>=70)
+    {
+        if(z<=80)
+        {
+            print(name,z,get_id(2));
+        }
+        else
+        {
+            print(name,z,get_id(1));
+        }
+    }
+    if(z>90)
+        printf("grade");
+    if(z==100)
+        printf("perfect");
+    
+    
+}

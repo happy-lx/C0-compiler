@@ -1,0 +1,107 @@
+const int num_1 = 1, num_2= 2; 
+const char ch_x = 'x', ch_y = 'y';
+int N1N2, n[10];
+char ch[10],_c;
+
+int fabonacci(int a)
+{
+	if (a == 1)
+		return (1);
+	if (a == 2)
+		return (1);
+	return(fabonacci(a - 2) + fabonacci(a - 1));
+
+}
+
+char test_expression(int a, int b, int c, int d)
+{
+	int e;
+	char f;
+	printf("test_expression:");
+	e = a;
+	printf(e);
+	printf(" ");
+	e = n[a + b];
+	printf(e);
+	printf(" ");
+	e = (a + b);
+	printf(e);
+	printf(" ");
+	e = 0;
+	printf(e);
+	printf(" ");
+	e = 1203;
+	printf(e);
+	printf(" ");
+	e = +12;
+	printf(e);
+	printf(" ");
+	e = -234;
+	printf(e);
+	printf(" ");
+	e = fabonacci(a*4); 
+	printf(e);
+	printf(" ");
+	f = '_';
+	printf(f);
+	printf(" ");
+	e = a / n[a+b+c+1] * fabonacci(a+b*4)*(c - d) *'a';
+	printf(e);
+	printf(" ");
+	e = +-4 + a * b;
+	printf(e);
+	printf(" ");
+	e = --4 - n[c] * (c-d);
+	printf(e);
+	printf(" ");
+	e = a * b + c / d - n[2] * 'a';
+	printf(e);
+	printf(" ");
+	e = -c * d - a * b + n[1];
+	printf(e);
+	printf(" ");
+	printf("test_expression_over ");
+	return (f);
+}
+
+void test_printf(int a,char b)
+{
+	printf("test_printf:");
+	printf(a*b);
+	printf(" hello world ",b);
+	printf(" test_printf_over ");
+	return;
+}
+
+void test_scanf()
+{
+	int i;
+	int _1,_1a;
+	char _a1,_b1;
+	i = 10;
+	printf("test_scanf:");
+	scanf(_1, _1a,_a1,_b1);
+	printf(_1);
+	printf(_1a);
+	printf(_a1);
+	printf(_b1);
+	printf(" ");
+	printf("test_scanf_over ");
+}
+
+void main()
+{
+	const int conum1 = 1, conum2 = 2;
+	int x, y, z, r;
+	_c = 'a';
+	x = 0;
+	z = 2;
+	r = 2;
+	{
+		if (conum1 <= 1) {
+			if (conum2 >= 2)
+				printf("conum1<=1,conum2>=2");
+		}
+	}
+
+}

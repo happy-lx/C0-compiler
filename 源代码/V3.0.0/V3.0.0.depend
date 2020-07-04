@@ -1,0 +1,86 @@
+# depslib dependency file v1.0
+1588423573 source:e:\编译原理程序记录\v3.0.0\grammer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+	"global.h"
+	"grammer.h"
+
+1587265705 e:\编译原理程序记录\v3.0.0\lex.h
+	"global.h"
+
+1588559822 e:\编译原理程序记录\v3.0.0\global.h
+	<stdio.h>
+	<stdlib.h>
+
+1587984535 e:\编译原理程序记录\v3.0.0\grammer.h
+	"global.h"
+
+1587541694 source:e:\编译原理程序记录\v3.0.0\lex.cpp
+	"global.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+
+1588589045 source:e:\编译原理程序记录\v3.0.0\midcode.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stack>
+
+1588588721 e:\编译原理程序记录\v3.0.0\symbol.h
+	"global.h"
+
+1587984534 e:\编译原理程序记录\v3.0.0\semantic.h
+	"global.h"
+
+1588589045 e:\编译原理程序记录\v3.0.0\midcode.h
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	<vector>
+
+1588675705 source:e:\编译原理程序记录\v3.0.0\mips.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588559822 e:\编译原理程序记录\v3.0.0\mips.h
+
+1587997092 source:e:\编译原理程序记录\v3.0.0\semantic.cpp
+	"symbol.h"
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1588588721 source:e:\编译原理程序记录\v3.0.0\symbol.cpp
+	"global.h"
+	"symbol.h"
+	"grammer.h"
+	"lex.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+

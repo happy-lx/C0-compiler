@@ -1,0 +1,310 @@
+
+const int _t1 = 1, _t2 = 2, _t3 = 3;
+
+
+char _c1, _c2, _c3, _c4;
+
+char ff1(char c){
+    const char temp_c = 'b';
+    _c1 = temp_c;
+    return (c);
+}
+
+
+int ff2(){
+    _c2 = '-';#改变全局变量_c2的值
+    return (_t1+_t2+_t3);
+}
+
+
+void ff3(int a,int b,char c,int d,char e,char f){
+    printf(a+b+c+d+e+f);
+    return ;
+}
+
+
+void ff4(){
+    printf("_ff4_");
+    
+}
+
+
+int factorial(int a){
+    int b;
+    if(a==1){
+        return (1);
+    }
+    else{
+        b = (factorial(a-1)*a);
+        return (b);
+    }
+}
+
+
+void ff5(){
+    const char _c2 = 'z';
+    
+    int _t1;
+    _t1 = 4;
+    
+    printf(_t1 + _c2 + _c1);
+}
+
+
+
+void main(){
+    
+    const int int_100 = 100;
+    const char char_z = 'z';
+
+    int in_1;
+    
+    int t1,t2;
+    char c1,c2,single_chars[10];
+    int t3,t4,t5;
+    int t6,t7,t8;
+    int t9;
+    char c3,c4;
+    
+
+    int t10,t11,t12,t13,t14,t15,t16,t17,t18,t19,t20,t21,t22,t23;
+    char c5,c6,c7,c8;
+    int t_array1[100];
+    char c_array1[100];
+
+    int _c4,i;
+    char _t1;
+    int t_array2[100];
+    char c_array2[100];
+    
+    scanf(in_1);
+    
+
+    if(in_1==1){
+       
+        scanf(t1,c2,c1,t2);
+        
+        printf(c2+t1*c2-t1/c1);#588
+        
+        printf("___ !$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~___\n\t\\\'___");
+        printf("");
+      
+        printf("@@@@@",c2);
+        
+        single_chars[0] = '+';
+        single_chars[1] = '-';
+        single_chars[2] = '*';
+        single_chars[3] = '/';
+        single_chars[4] = '0';
+        single_chars[5] = '9';
+        single_chars[6] = 'a';
+        single_chars[7] = 'z';
+        single_chars[8] = 'A';
+        single_chars[9] = 'Z';
+        
+        _c1 = '+';
+        _c3 = 'a';
+        
+        t3 = _c1 + _t2;    
+        t4 = - _c3 + 77;   
+        t5 = -1+'-'+1;    
+        if(t3 != t5)
+            printf("error1");
+        if(t3 == t4)
+            printf("error2");
+        if(t3 <= t4)
+            printf("error3");
+        if(t3 < t5)
+            printf("error4");
+        if(t4 >= t5)
+            printf("error5");
+        if(t5 > t3)
+            printf("error6");
+       
+        t6 = 12;
+        t7 = +23;
+        t8 = -23;
+        if(t8+t6+t7 != 12)
+            printf("error7");
+        
+        
+        if( 3 > 5 )
+            printf("error8");
+       
+        t9 = 9;
+        c3 = '3';
+        c4 = '4';
+        if(c4-c3+t9 != 10)
+            printf("error9");
+    }
+        
+    
+  
+    if(in_1==2){
+       
+        t_array1[0] = 2333;
+        c_array1[0] = '/';
+        
+        
+        t10 = ( -7 + +9 );  
+        
+        c5 = '+';               
+        c6 = c5;               
+        c7 = c_array1[0];     
+        
+        t11 = -7;               
+        t12 = t11;                
+        t13 =  t_array1[0];     
+        
+        t14 = ff2();             
+        c8 = ff1('y');           
+        
+        t14 = t10+c5+c6+c7+t11+t12+t13+t14+c8;
+        
+        
+    
+        printf(t11*-7*t13/c8/t10*t12);# -3304
+        
+        #3. 测试<表达式>中有多个项，表达式可选的[+|-]，以及字符参与运算时转化为int型
+        printf(" ",+ +4+t14);#2585
+        printf(" ",- +3/-2);#=1     ++4 --4  +-4  -+4 这一类的考察
+        
+        #4. if else 和 <条件>语句没有比较运算符
+        # <条件>语句没有比较运算符, if else简单测试
+        if(4/5)
+            printf("error10");
+        else
+            t15 = 1;
+        # if else 嵌套,  else与最近的if匹配
+        if( 3 < 4 ){
+            if( 4 < 4 )
+                printf("error11");
+            else if( 4 >= 4 ){
+                if( t15 > 0 ) 
+                    if( t15 < 0)
+                        printf("error12");
+                    else
+                        printf(" ojbk");
+            }
+        }
+        else{
+            printf("error13");
+        }        
+        
+        #5. while
+        #执行 0,1,2,3次
+        t16 = 1;
+        t18 = 0;
+		if(t16<=4){
+			do{
+				t17 = 1;
+				if(t17<t16){
+				do{
+				    t18 = t18+t17;
+				    t17 = t17+1;
+				}while(t17<t16)}
+				t16 = t16+1;
+			}while(t16<=4);
+		}
+        #最后根据t18的值看是否正确
+        #printf(" ",t18); #10
+        
+        #6. for 
+        t19 = 0;
+        #6.1 步长增. t20为循环控制变量2-5，使内层循环分别执行1,1,2,3次
+        for(t20=2; t20<=5; t20=t20+1){
+            t22 = 1;
+            for(t21=2;t21<t20;t21=t21+2){
+                t22 = t22*t21;
+            }
+            t19 = t19 + t22;
+        }
+        #t19 = 14
+        #6.2 步长减. 执行1,1,2,3次
+        for(t20=100; t20>=97; t20=t20-1){
+            t22 = 1;
+            for(t21=100;t21>t20;t21=t21-2){
+                t22 = t22*t21;
+            }
+            t19 = t19 + t22;
+        }
+        #最后根据t19的值看是否正确
+        #printf(" ",t19); # 10114
+        
+        #7. 空语句
+        if( 1 > -0 ){
+            ;;;;;
+            ;;;;
+            ;;;
+            printf(" ojbk");
+            ;;
+            ;
+        }
+        
+        #8.if for while等的的嵌套
+        do{
+            for(t23=0; t23<100; t23=t23+1){
+                t23 = t23+2;
+                if(t23>60){
+                    printf(" ",t18+t19+t23);#10+10114+62 = 10186
+                    return ;
+                }    
+            }
+        }while(1)
+        printf("error14");
+    }
+    
+    
+    #3.高级测试
+    if(in_1==3){
+        #1.递归函数
+        printf(factorial(1)+factorial(2)+factorial(5));#123
+        
+        #2.测试语句中的<有返回值函数调用> <无返回值函数调用>（前面定义的4个函数的调用）
+            #同时测试：分函数中是否能有效改变全局变量的值
+        
+        #2.1 有返回值有参数函数调用语句
+        _c1 = 'a';
+        ff1('+');#函数内部将全局变量_c1的值改为'b'
+        printf(_c1); #注意不能：if(_c1 != 'b') ...
+        
+        #2.2 有返回值无参数函数调用语句
+        _c2 = 'b';
+        ff2();#函数内部将全局变量_c2的值改为'-'
+        printf(_c2);
+        
+        #2.3 无返回值有参数函数调用语句
+        ff3(1,2,'a',3,'b','c');#打印 传入的所有参数的和  #300
+        
+        #2.4 无返回值无参数函数调用语句
+        ff4();#会打印字符串表示真的被调用
+        
+        
+        #3. 作用域。同名变量的不同作用域
+        _c1 = '*';
+        ff5();#函数内有同名于全局变量的局部变量_c2  _t1，同时会使用全局变量的值  #打印出168
+        
+        #main函数内定义了同名于全局变量的 局部变量 _c2  _t1 且类型变化
+        _c4 = 6666;
+        _t1 = '8';
+        printf(_c4+_t1);   #6722
+        
+        #4. 论坛上提醒的几个点
+        #4.1 printf 打印字符数组，打印返回值为char型的函数，('r')
+        c_array2[50] = 'h';
+        printf(c_array2[50]); #'h'
+        printf(ff1('g')); #'g'
+        printf(('r')); #114
+        
+        #4.2 复杂表达式 作为 数组下标 或者 值参数值
+        for(i=0; i<int_100; i=i+1)
+            t_array2[i] = i;
+        i = t_array2[t_array2[34/4*6+char_z/10]/23+t_array2[22*i/23*(t_array2[1]*1000)/1000+'9'/17]/30];
+        # i =4
+        printf(factorial(t_array2[t_array2[34/4*6+char_z/10]/23+t_array2[22*i/23*(t_array2[1]*1000)/1000+'9'/17]/30]) );
+        # factorial(2) = 2
+        
+    }    
+    
+    return ;
+}

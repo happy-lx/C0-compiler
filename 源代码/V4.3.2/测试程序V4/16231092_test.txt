@@ -1,0 +1,212 @@
+//#==================test code============================================
+#test1:test the def of const 
+const int cst_int1=00123,cst_int2=+00124,cst_int3=-000125;
+const char cst_ch1='_',cst_ch2='+',cst_ch3='7';
+const int cst_int5=-0;
+#test2: test the def of var
+int x,y,z;
+int arr_x[100],arr_y[100],arr_z[100],xx,yy,zz;
+char ch1,ch2,ch3;
+char ch4;
+char ch5,arr_ch6[100],arr_ch7[100];
+#test3: test the def of function
+
+char func1(int x,int y,int z)
+{
+
+     return (cst_ch3);
+	 printf("return in func1 is wrong!");
+
+}
+int func2(int x)
+{
+	printf("now the code is printing in_func2_x!",x);
+	scanf(x);
+	scanf(z);
+	return (x + z - x);
+	printf("return in func2 is wrong!");
+
+}
+int func3(char ch3)
+{
+	printf("now the code is printing in_func2_x!",ch3);
+	scanf(ch3);
+	return (ch3);
+	printf("return in func3 is wrong!");
+
+}
+void proc1
+{
+	const int cst_proc1 = 1;
+	char ch_proc1;
+	ch_proc1 = cst_ch1;
+	printf("now the proc1 is printing ch_proc1!",ch_proc1);
+	return ;
+	printf("return in proc1 is wrong!");
+
+}
+
+void proc2(char ch1,char ch2,char ch3)
+{
+	printf("now the proc2 is printing ch1!",ch1);
+	printf("now the proc2 is printing ch2!",ch2);
+	printf("now the proc2 is printing ch3!",ch3);
+	return ;
+	printf("return in proc2 is wrong!");
+
+}
+int fabnac(int x)
+{
+	int now;
+	;
+	if  (x <= 2) 
+		return (1);
+	else
+	{
+		now = fabnac(x-1) + fabnac(x - 2);
+		return (now);
+	}
+}
+void switch_case_if_else(int z)
+{
+	switch(z+1)
+	{
+		case 1,2,3,4,5:
+			{ 
+				printf("case 1,2,3,4,5",z);
+				z = 5;
+			}
+		case 6,7,8,9,10:
+			{
+				printf("case 6,7,8,9,10",z);
+				z = 10;
+			}
+		default: ;
+	}
+	if(z == 1 )
+	{
+		printf("if else z=1.",z);
+		z = 2;
+	}
+	else
+	if( z<=2)
+	{
+		printf("if else z=2.",z);
+		z = 3;
+	}
+	else
+	if(z<=3)
+	{
+		printf("if else z=3.",z);
+		z = 4;
+	}
+	else
+	{
+		printf("if else  z >=4",z);
+	}
+	return ;
+
+}
+
+void error_might_happen
+{
+	const char error_cst_ch = '*';
+	const int error_cst_int= 5;
+
+	const char error_def = 'ss';
+	const char error_cst_ch = 'x';
+	const error_def = 'x';  
+	char error_ch;
+	int error_int;
+	const int error_def_wrong_position = 1;
+
+	Z = 0;
+	aRr_z[1] = z + 1;
+	arr_Z[2] = Z + 2;
+	z = Z + 1; 
+
+	arr_y[101] = arr_y[99];
+	arr_y[99] = arr_y[100];
+	arr_y[-1+2-3] = arr_y[0];
+	arr_y[0] = arr_y[-1];
+
+	x = 1 > 0;
+	X = (3+4) * 8 + 6 / 2;
+	{
+		const err_def_cst = -0;
+		int err_def_var;
+	}
+
+	{
+		error_cst_ch = 'x';
+		error_cst_int = 10;
+
+	}
+
+	{
+		error_int = error_cst_int;
+		error_ch = error_cst_ch;
+		error_ch = error_cst_int;
+		error_int = error_cst_ch;
+	}
+
+	{
+		printf("para is wrong1 :",fabnac());
+		printf("para is wrong2 :",func1(x,y));
+		printf("para is wrong3 :",func1(x,ch3,z));
+	}
+
+	{
+		printf("wrong_printf! this is the head:",1+2,"this is the end!");
+		printf(2*3,"wrong_printf_this is the end!")
+		printf(2*3,x,y);
+	}
+
+	{
+        this_is_not_def_var = 1;
+	}
+
+	{
+		scanf(x,y,arr_z[0]);
+		scanf(notdef);
+	}
+
+}
+void main()
+{
+#test4: const_&_var def in compound statement
+	const char cst_in_main='x';
+	int  var_in_main,arr_in_main[19];
+#test5: assigment statement
+	x = +32 - -81;
+	a[x] = 00213 - -00982;
+	var_in_main = x + -0001 - -000;
+
+	y = +000;
+#test6:while statement 
+	do
+	{
+
+		y = y + 1;
+		arr_y[y] = y * -10 - -010 + 06 / 03;
+		arr_y[y-1] = arr_y[y] +  +010 - x;		
+
+	}
+	while(y + 0 - 0 > 3 + 02313 * -0)
+#test7: the call of function,with&without paras
+	proc1;
+	proc2(cst_in_main,cst_ch1,cst_ch2);
+	x = func2(x);	
+	ch3 = func3(cst_ch1)
+	printf(ch3);
+#test8: call function recursively
+	;
+	printf("fab 4 is ",fabnac(4));
+#test9: switch_case statement
+	scanf(z);
+	switch_case_if_else(z);
+#test10: error needed to be recognized
+	error_might_happen;
+	return ;
+}
+

@@ -1,0 +1,54 @@
+	case '/':
+		cc++;
+		cursor++;
+		if (code[cursor] == '\0') {
+			printf("error!");
+			type = END;
+			return;
+		}
+		else if (code[cursor] == '/') {
+			while (code[cursor] != '\n') {
+				cursor++;
+			}
+			cursor++;
+			cc = 0;
+			lc++;
+			type = NOTYPE;
+			return;
+		}
+		else if (code[cursor] == '*') {
+			cursor++;
+			cc++;
+			do {
+				while (code[cursor] != '*') {
+					if (code[cursor] == '\n') {
+						lc++;
+						cc = 0;
+						cursor++;
+					}
+					else if (code[cursor] == '\0') {
+						//TODO:error;
+						printf("error!\n");
+						type = NOTYPE;
+						cc++;
+						cursor++;
+						return;
+					}
+					else {
+						cursor++;
+						cc++;
+					}
+				}
+				cursor++;
+				cc++;
+			} while (code[cursor] != '/');
+			cursor++;
+			cc++;
+			nextsym(type, val, name);
+			return;
+		}
+		else {
+			name = "/";
+			type = reserve_tab[name];
+		}
+		break;

@@ -1,0 +1,16 @@
+const int max = 1000;
+void main()
+{	
+	int i,j;
+	i = 1;
+	do
+    {
+	j = 1;
+	do
+      {
+	if(j*j==i) printf(" ",i);
+	j = j + 1;
+      }while(j<=i)
+     i = i + 1;
+    }while(i<=max)
+}

@@ -1,0 +1,44 @@
+const int IntArrayCapacity = 10;
+int IntArray[10];
+
+int ReadArray(int a) {
+  int ArraySize;
+  int Index;
+  int IntVal;
+
+  printf("Please input a positive integer as array size:");
+  scanf(ArraySize);
+  if (ArraySize <= 0) {
+    printf("Error: array size must be positive");
+    return (-1);
+  }
+  if (ArraySize > IntArrayCapacity) {
+    printf("Error: array size too large");
+    return (-1);
+  }
+
+  printf("Please input the array elements:");
+  Index = 0;
+  if(Index < ArraySize){
+  do {
+    scanf(IntVal);
+    IntArray[Index] = IntVal;
+    Index = Index + 1;
+  }while (Index < ArraySize)}
+  return (ArraySize);
+}
+
+void main() {
+  int I;
+  int ArraySize;
+  int Result;
+
+  printf("Test ReadArray:");
+  ArraySize = ReadArray(0);
+  if (ArraySize < 0)
+    return;
+  for (I = 0; I < ArraySize; I = I + 1) {
+    printf("Element: ", IntArray[I]);
+  }
+  printf("Array Size: ", ArraySize);
+}

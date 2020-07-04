@@ -1,0 +1,275 @@
+# depslib dependency file v1.0
+1590224847 source:e:\编译原理程序记录\v4.3.2\lex.cpp
+	"global.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+
+1590320849 e:\编译原理程序记录\v4.3.2\global.h
+	<stdio.h>
+	<stdlib.h>
+
+1587265705 e:\编译原理程序记录\v4.3.2\lex.h
+	"global.h"
+
+1590329568 source:e:\编译原理程序记录\v4.3.2\main.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	"optimizer.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1590329202 e:\编译原理程序记录\v4.3.2\grammer.h
+	"global.h"
+
+1588588721 e:\编译原理程序记录\v4.3.2\symbol.h
+	"global.h"
+
+1587984534 e:\编译原理程序记录\v4.3.2\semantic.h
+	"global.h"
+
+1588589045 e:\编译原理程序记录\v4.3.2\midcode.h
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	<vector>
+
+1590315639 e:\编译原理程序记录\v4.3.2\mips.h
+
+1590315639 e:\编译原理程序记录\v4.3.2\optimizer.h
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1590139447 source:e:\编译原理程序记录\v4.3.2\midcode.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stack>
+
+1591179977 source:e:\编译原理程序记录\v4.3.2\mips.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<algorithm>
+
+1591179448 source:e:\编译原理程序记录\v4.3.2\optimizer.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	"optimizer.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1590315639 source:e:\编译原理程序记录\v4.3.2\semantic.cpp
+	"symbol.h"
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1588588721 source:e:\编译原理程序记录\v4.3.2\symbol.cpp
+	"global.h"
+	"symbol.h"
+	"grammer.h"
+	"lex.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1590330218 source:e:\编译原理程序记录\v4.3.2\error.cpp
+	"global.h"
+	"error.h"
+	"grammer.h"
+	"lex.h"
+	<stdio.h>
+
+1590330218 e:\编译原理程序记录\v4.3.2\error.h
+
+1591158037 source:e:\编译原理程序记录\v4.3.2\grammer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+	"global.h"
+	"grammer.h"
+	"error.h"
+
+1590330218 source:e:\新桌面\编译原理提交\源代码\v4.3.2\error.cpp
+	"global.h"
+	"error.h"
+	"grammer.h"
+	"lex.h"
+	<stdio.h>
+
+1590320849 e:\新桌面\编译原理提交\源代码\v4.3.2\global.h
+	<stdio.h>
+	<stdlib.h>
+
+1590330218 e:\新桌面\编译原理提交\源代码\v4.3.2\error.h
+
+1590329202 e:\新桌面\编译原理提交\源代码\v4.3.2\grammer.h
+	"global.h"
+
+1587265705 e:\新桌面\编译原理提交\源代码\v4.3.2\lex.h
+	"global.h"
+
+1591158037 source:e:\新桌面\编译原理提交\源代码\v4.3.2\grammer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+	"global.h"
+	"grammer.h"
+	"error.h"
+
+1590224847 source:e:\新桌面\编译原理提交\源代码\v4.3.2\lex.cpp
+	"global.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+
+1590329568 source:e:\新桌面\编译原理提交\源代码\v4.3.2\main.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	"optimizer.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1588588721 e:\新桌面\编译原理提交\源代码\v4.3.2\symbol.h
+	"global.h"
+
+1587984534 e:\新桌面\编译原理提交\源代码\v4.3.2\semantic.h
+	"global.h"
+
+1588589045 e:\新桌面\编译原理提交\源代码\v4.3.2\midcode.h
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	<vector>
+
+1590315639 e:\新桌面\编译原理提交\源代码\v4.3.2\mips.h
+
+1590315639 e:\新桌面\编译原理提交\源代码\v4.3.2\optimizer.h
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1590139447 source:e:\新桌面\编译原理提交\源代码\v4.3.2\midcode.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stack>
+
+1591179977 source:e:\新桌面\编译原理提交\源代码\v4.3.2\mips.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<algorithm>
+
+1591179448 source:e:\新桌面\编译原理提交\源代码\v4.3.2\optimizer.cpp
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	"symbol.h"
+	"semantic.h"
+	"midcode.h"
+	"mips.h"
+	"optimizer.h"
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1591251817 source:e:\新桌面\编译原理提交\源代码\v4.3.2\semantic.cpp
+	"symbol.h"
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1588588721 source:e:\新桌面\编译原理提交\源代码\v4.3.2\symbol.cpp
+	"global.h"
+	"symbol.h"
+	"grammer.h"
+	"lex.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+

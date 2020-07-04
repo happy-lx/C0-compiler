@@ -1,0 +1,239 @@
+const int con1 = 1, con2 = 2;
+const char ch1 = '_';
+int i, j, array[100], scope_var;
+char ch;
+
+int Fibonacci(int n) {
+    if (n == 1) {
+        return(1);
+    }
+    if (n == 2) {
+        return(1);
+    }
+    return(Fibonacci(n - 1) + Fibonacci(n - 2));
+}
+
+int test_recursion() {
+    if (Fibonacci(8) == 21) {
+        printf("success!");
+        return(0);
+    }
+    printf("fail!");
+    return(0);
+}
+int test_if(int plus) {
+    const char flag = 'g';
+    char ch;
+    ch = 'a';
+    if (ch + plus > (flag)) {
+        printf("success1!");
+    }
+    if ((ch)) {
+        printf("success2!");
+    }
+    if (0) {
+        printf("fail1!");
+    }
+    return(0);
+}
+
+void test_while() {
+    const int j = 100;
+    int sum;
+    sum = 0;
+    i = 0;
+    if (i < j) {
+	do{
+        array[i] = i;
+        i = i + 1;
+    }while (i < j)
+	}
+    ;;;;;;
+    {{{}}{}}
+    i = 0;
+    if (i < j) {
+	do{
+        sum = sum + i;
+        i = i + 1;
+    }while (i < j)
+	}
+    if (sum == 4950) {
+        printf("success!");
+        return;
+    }
+    printf("fail!");
+    return;
+}
+
+void test_switch() {
+    char flag;
+    flag = 'a';
+   
+    {
+    if((flag)== ('a')) {
+        printf("success!");
+    }
+    else  printf("fail!");
+    }
+}
+
+int to_upper(char a, int b) {
+    return(a - b);
+}
+void test_scanf_printf() {
+    char a, b, c;
+    scanf(a, b, c);
+    printf("Input is:");
+    printf(a);
+    printf(b);
+    printf(c);
+    printf(to_upper(a, 32));
+    printf(to_upper(b, 32));
+    printf(to_upper(c, 32));
+}
+void test_relation_operator(int x, int y) {
+    if (x == y) printf(" x==y:true");
+    if (x > y)  printf(" x>y:true");
+    if (x < y)  printf(" x<y:true");
+    if (x >= y) printf(" x>=y:true");
+    if (x <= y) printf(" x<=y:true");
+    if (x != y) printf(" x!=y:true");
+}
+void test_expression() {
+    int x, y, z, A[1];
+    x = 10;
+    y = 1;
+    A[0 * 2] = 2;
+    z = +x + (-1 * x*A[0] * (-y)*(+y) / 2 + '*' + to_upper('a', --32) - 'A'); 
+    if (z == 62) {
+        printf("success!");
+        return;
+    }
+    printf("fail!");
+    return;
+}
+void test_symbol() {
+    char _a1, _a2, _a3, _a4, _a5;
+    int aa, Aa, array[30], i, sum;
+    _a1 = '*';
+    _a2 = '/';
+    _a3 = '+';
+    _a4 = '-';
+    _a5 = '_';
+    aa = 1;
+    Aa = 0;
+    if (aa == 0) printf("fail1!");
+    i = 0;
+    sum = _a1 + _a2 + _a3 + _a4 + _a5;
+    if (i < 10) {
+	do{
+        array[i] = i;
+        i = i + 1;
+    }while (i < 10)
+	}
+    if (i < 20) {
+	do{
+        array[i] = 'a' + i - 10;
+        i = i + 1;
+    }while (i < 20)
+	}
+    if (i < 30) {
+	do{
+        array[i] = 'A' + i - 20;
+        i = i + 1;
+    }while (i < 30)
+	}
+    i = 0;
+    if (i < 30) {
+	do{
+        sum = sum + array[i];
+        i = i + 1;
+    }while (i < 30)
+	}
+    if (sum == 2027) {
+        printf("success!");
+        return;
+    }
+    printf("fail2!");
+    return;
+}
+
+
+void local_scope() {
+    int scope_var;
+    scope_var = 10;
+    printf("the local scope_var = ", scope_var);
+}
+void test_scope() {
+    int tem;
+    scope_var = 20;
+    tem = scope_var;
+    printf("the global scope_var = ", scope_var);
+    local_scope();
+    printf("the global scope_var = ", scope_var);
+    if (tem == scope_var) {
+        printf("success!");
+        return;
+    }
+    printf("fail!");
+    return;
+}
+
+void test() {
+    int i, j, k;
+    j = 0;
+    k = 9;
+    if (j < k) {
+	do{
+        scanf(i);
+        {
+        if(i== 0) {
+            printf("test_recursion begin:");
+            test_recursion();
+        }
+        else if(i==1) {
+            printf("test_if begin:");
+            test_if(20);
+        }
+        else if(i==2) {
+            printf("test_while begin:");
+            test_while();
+        }
+        else if(i==3) {
+            printf("test_switch begin:");
+            test_switch();
+        }
+        else if(i==4) {
+            printf("test_scanf_printf begin:");
+            test_scanf_printf();
+        }
+        else if(i==5) {
+            printf("test_expression begin:");
+            test_expression();
+        }
+        else if(i==6) {
+            printf("test_symbol begin:");
+            test_symbol();
+        }
+        else if(i==7) {
+            printf("test_relation_operator begin:");
+            test_relation_operator(con1 + 2, con2 + 4);
+            test_relation_operator(con1 + 6, con2 + 3);
+            test_relation_operator(con1 + 1, con2);
+        }
+        else if(i==8) {
+            printf("test_scope begin:");
+            test_scope();
+        }
+        }
+        printf("*********************");
+        j = j + 1;
+    } while (j < k)
+	}
+    ch = ch1;
+    printf("ch=", ch);
+    printf("@#$$&*^^^^test end");
+}
+void main() {
+    test();
+}

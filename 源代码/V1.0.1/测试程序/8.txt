@@ -1,0 +1,14 @@
+void main(){
+	int i,j,k,m;
+	char s[10];
+	s=100;
+	for(i=100;i<=999;i=i + 1){
+	   j=i/100;
+	   k=(i-j*100)/10;
+	   m=(i-j*100-k*10);
+	   if(j*j*j+k*k*k+m*m*m==i){
+			printf(i);
+	   }
+	}
+		
+} 

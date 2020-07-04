@@ -1,0 +1,15 @@
+int digui(int n) {
+	if (n==1) {
+	return (1);
+	}
+	return (n*digui(n-1));
+}
+
+void main() {
+	int n;
+	int result;
+	printf("please input a number");
+	scanf(n);
+	result=digui(n,4);
+	printf("n£¡result",result);
+}

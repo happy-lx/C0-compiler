@@ -1,0 +1,12 @@
+void test_in(){
+	printf("in");
+}		
+void main(){
+	int arr[10];
+	arr = 1;
+	test_in;
+	scanf(arr[0], arr[1])
+	printf('cant use quote');
+	printf(need a quote);	
+	printf("c*12");
+}

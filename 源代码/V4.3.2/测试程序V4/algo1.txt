@@ -1,0 +1,72 @@
+int IntArray[10];
+
+int RecursiveBinarySearch(int Begin, int End, int Target) {
+  int Middle;
+
+  if (Begin >= End)
+    return (-1);
+
+  Middle = Begin + (End - Begin) / 2;
+  if (IntArray[Middle] > Target)
+    return (RecursiveBinarySearch(Begin, Middle, Target));
+  if (IntArray[Middle] < Target)
+    return (RecursiveBinarySearch(Middle + 1, End, Target));
+  return (Middle);
+}
+
+int IterativeBinarySearch(int Begin, int End, int Target) {
+  int Middle;
+
+  if(Begin<End){
+  do {
+    Middle = Begin + (End - Begin) / 2;
+    if (IntArray[Middle] < Target)
+      Begin = Middle + 1;
+    else if (IntArray[Middle] > Target)
+      End = Middle;
+    else
+      return (Middle);
+  }while (Begin < End)
+  }
+
+  return (-1);
+}
+
+void InitializeIntArray(int a) {
+  IntArray[0] = 0;
+  IntArray[1] = 1;
+  IntArray[2] = 2;
+  IntArray[3] = 3;
+  IntArray[4] = 4;
+  IntArray[5] = 5;
+  IntArray[6] = 6;
+  IntArray[7] = 7;
+  IntArray[8] = 8;
+  IntArray[9] = 9;
+
+}
+
+void TestIBS(int a) {
+  printf("Test IterativeBinarySearch:");
+  printf("Expected 1: ", IterativeBinarySearch(0, 10, 1));
+  printf("Expected 5: ", IterativeBinarySearch(0, 10, 5));
+  printf("Expected 7: ", IterativeBinarySearch(0, 10, 7));
+  printf("Expected -1: ", IterativeBinarySearch(0, 10, 10));
+
+}
+
+void TestRBS(int a) {
+  printf("Test RecursiveBinarySearch:");
+  printf("Expected 1: ", RecursiveBinarySearch(0, 10, 1));
+  printf("Expected 5: ", RecursiveBinarySearch(0, 10, 5));
+  printf("Expected 7: ", RecursiveBinarySearch(0, 10, 7));
+  printf("Expected -1: ", RecursiveBinarySearch(0, 10, 10));
+
+}
+
+void main() {
+  InitializeIntArray(0);
+  TestIBS(0);
+  TestRBS(0);
+
+}

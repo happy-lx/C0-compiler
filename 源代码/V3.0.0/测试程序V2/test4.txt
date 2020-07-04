@@ -1,0 +1,9 @@
+void main(){
+   int a;
+   
+   scanf(a);
+   do{
+   
+        scanf(a);
+     }while(a<=10)
+}

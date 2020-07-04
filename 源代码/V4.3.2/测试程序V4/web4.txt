@@ -1,0 +1,189 @@
+const int num = 33, number1 = 35, number2 = 36, number6 = 0;
+const char str = '1', str1 = 'a', str2 = 'e', str3 = '9', str4 = '+', str5 = '*';
+int i;
+int letter_only, number3, number4[100];
+char only_letter, str6, str7[200], cal[100], temp_cal;
+
+int function1(int parameter1)
+{
+    if (parameter1 <= 1)
+        return (parameter1);
+    else
+        return (function1(parameter1 - 1) + function1(parameter1 - 2));
+}
+
+char function2(int parameter3, char parameter4)
+{
+    int temp_num, i, temp_num_2;
+    char temp_str;
+    if ((parameter4) <= ('Z'))
+    {
+        printf("Too small");
+        printf("\n");
+        return ('s');
+    }
+    else
+    {
+        temp_num_2 = (parameter4);
+        do
+        {
+            temp_num_2 = temp_num_2 - 1;
+            if (temp_num_2 == 111) {
+                printf("The current character is:", 'o');
+                printf("\n");
+            }
+        } while (temp_num_2 != 97)
+    }
+
+    for (i = parameter3; i > 97; i = i - 1)
+    {
+        if (parameter3 >= 200) {
+            i = 96;
+            printf("i is Bigger than 200\n");
+        }
+    }
+    return ('r');
+}
+
+void function3()
+{
+    int temp_num1, temp_num2, i;
+    char temp_str, result_str;
+    temp_str = 'H';
+    temp_num1 = 300;
+
+    result_str = function2(temp_num1, temp_str);
+    printf(result_str);
+    printf("\n");
+    str7[temp_str - 1] = result_str;
+
+    temp_str = 'b';
+    result_str = function2(temp_num1 - 100, temp_str);
+    str7[temp_str - 1] = result_str;
+
+    temp_str = 'w';
+    result_str = function2(temp_num1 - 200 + 100, temp_str);
+    str7[temp_str - 1] = result_str;
+
+    number4[90] = 15;
+    number4[98] = 17;
+    number4[99] = 17;
+
+    return ;
+}
+
+int function_cal()
+{
+    int i;
+    int cal_num1, cal_flag, cal_num3, cal_num, cal_result;
+    char temp_in;
+    cal_num1 = 0;
+    cal_flag = 0;
+    cal_result = 0;
+
+    for (i = 0; i < 10; i = i + 1) {
+        scanf(temp_in);
+        cal[i] = temp_in;
+    }
+    for (i = 0; i < 10; i = i + 1)
+    {
+        cal_num1 = 0;
+        do
+        {
+            temp_cal = cal[i];
+            if ((temp_cal) >= ('0')) {
+                cal_num = temp_cal - '0';
+                cal_num1 = 10 * cal_num1 + cal_num;
+                i = i + 1;
+            }
+        }
+        while ((temp_cal) >= ('0'))
+        cal_flag = cal_flag + 1;
+        if (cal_flag == 1)
+            cal_result = cal_result + cal_num1;
+        else
+        {
+            if ((temp_cal) == (str4))
+                cal_result = cal_result + cal_num1;
+            else
+                cal_result = cal_result + cal_num1;
+        }
+    }
+    return (cal_result);
+}
+
+void Complex_Compute()
+{
+    int a, b, c, d, e, f, g;
+    int x, y;
+    int result_1, result_2, result_3, result_4;
+    int array[100];
+    array[99] = 100;
+    array[0] = array[99] - 90;
+    a = +1; b = number1; c = number2; d = number2 - num;
+    e = b + c - d;
+    f = c + a - d;
+    printf("\n a is", a);
+    printf("\n b is", b);
+    printf("\n c is", c);
+    printf("\n d is", d);
+    printf("\n e is", e);
+    printf("\n f is", f);
+    printf("\n g is", g);
+    x = 120;
+    y = 121;
+    printf("\n");
+    letter_only = (c - d + number4[90]) / 12 + 32 - (x * (y - 'x') - b);
+    printf("\nonly_letter is:", letter_only);
+    letter_only = b + c + c + function1(array[0]);
+    printf("\nletter_only is:", letter_only);
+    result_1 = ((number4[90] + number4[99]) * a + function1(5) * b) * (x - 'a' + -32 - -43);
+    g = (str7[118] - 'a') * 32 + a + c - d / 43;
+    printf("\nThe second g is: ", g);
+    printf("\n");
+    number4[12] = -g * g * g / g / g / g + function1(g - 576);
+    result_2 = (e + f) * (e - f)  / (e / f) + number4[98] + function_cal();
+    result_3 = (e + f) * (e - f)  / (e / f) + function1(6) + number4[12];
+    printf("\n");
+    printf("Calculate the result_2 is: ", result_2);
+    printf("\n");
+    printf("Calculate the result_3 is: ", result_3);
+    printf("\n");
+    result_4 = function_cal() + 10;
+    printf("\n");
+    printf("Calculate the result_1 is: ", result_1);
+    printf("\n");
+    printf("Calculate the result_4 is: ", result_4);
+    printf("\n");
+}
+
+void main()
+{
+    const int constant1 = 12, constant2 = 13;
+    const char constant3 = 'f', constant4 = 'w';
+    int in_num, out_num, i;
+    char in_str, out_str;
+    out_num = constant1 + constant2;
+    scanf(in_num);
+    scanf(in_str, out_str);
+    for (i = 0; i < in_num; i = i + 1)
+    {
+        printf("The ");
+        printf(i);
+        printf("-th Fibonacci sequence number is:", function1(i));
+        printf("\n");
+
+    }
+    out_num = function1(function1(function1(6)) - 19);
+    printf("    ", out_num);
+    printf("\n");
+    function3();
+    out_num = function_cal() + 10;
+    printf("   ", out_num);
+    printf("\n");
+    out_num = out_num + function_cal();
+    printf("     ", out_num);
+    printf("\n");
+    Complex_Compute();
+    return ;
+}

@@ -1,0 +1,13 @@
+const int len=8;
+char s[8],temp;
+int i,count;
+
+void main(){
+	const int num=10;
+	int sum;
+	sum=0;
+	count=0;
+	temp='0';
+	
+		
+}

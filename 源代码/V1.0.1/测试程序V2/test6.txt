@@ -1,0 +1,10 @@
+void main(){
+
+    int a,b;
+    a=4;
+    b=1;
+    do{
+       b=b +  1;
+    }while(b<=4)
+    printf(b);
+}

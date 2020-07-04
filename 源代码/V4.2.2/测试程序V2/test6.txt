@@ -1,0 +1,11 @@
+void main(){
+
+    int a,b,c;
+    a=4;
+    b=2;
+    c = a / b;
+    do{
+       b=b +  1;
+    }while(b<=4)
+    printf(b);
+}

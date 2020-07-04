@@ -1,0 +1,25 @@
+
+void main(){
+	const int len = 10;
+	int arr[10];
+	int i;
+	int user_input;
+	int res_of_expr;
+	for(i = 0; i < len; i = i + 1){
+		arr[i] = i;
+	}
+	arr[150] = 10;		
+	arr[+1] = 10;				
+	undef = 1;							
+	printf("input the number (1~10)");
+	scanf(user_input);
+	if(user_input>=len)
+		printf("too big")	
+	else{
+		i = 0;
+		do{
+			printf(" ", arr[i]);
+			i = i + 1;
+		}while(i<=user_input);
+	}
+}

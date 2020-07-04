@@ -1,0 +1,114 @@
+const int scale = 100,test = 20;
+const char char_test = 'y';    
+int 
+mark[100],data[100];                        
+int 
+a,b,c,d,e;
+int 
+n;
+
+int sqrt(int x){
+    return (x*x);
+}
+
+void arrange(int unuse0,int unuse1,int unuse2,int unuse3,int level){
+    int i;
+    i = 0;
+    
+    if(level==n){return;}else;
+    
+    do{
+        if(mark[i]==0){
+            mark[i] = 1;
+            data[level] = i;
+            arrange(0,0,0,0,level+1);
+            mark[i] = 0;
+        }
+        else
+            ;
+        i = i + 1; 
+    }while(i<n)
+}
+
+void foo_recursion(){
+    int _i;
+    _i = 0;
+    
+    printf("Full permutation, please input a number(<100)");
+    scanf(n);
+    
+    do {
+        mark[_i] = 0;
+        _i = _i + 1;
+    }while(_i<n);
+    
+    arrange(1,2,3,4,0);
+    printf("Finished!");
+}
+
+
+int foo_expr(){
+    int a,c,d;
+    int i;
+    i = 0;
+    
+    printf("Three integers");
+    scanf(a,c,d);
+    
+    do{
+        data[i] = i;
+        i = i + 1;
+    }while(i<scale)
+    return (-a*data[c]+-2*'c'+sqrt(d)-(5/2)*1);
+}
+
+void do_nothing(){
+    {
+        ;
+        {
+            ;
+            {
+                  ;;;;;;;;;;  ;;        ;;           ;;;                   ;;;        
+                  ;       ;;  ;;        ;;          ;; ;;                 ;; ;;       
+                  ;       ;;  ;;        ;;         ;;   ;;               ;;   ;;      
+                  ;       ;;  ;;        ;;        ;;     ;;             ;;     ;;     
+                  ;;;;;;;;;;  ;;        ;;       ;;;;;;;;;;;           ;;;;;;;;;;;    
+                  ;       ;;  ;;        ;;      ;;         ;;         ;;         ;;   
+                  ;       ;;  ;;        ;;     ;;           ;;       ;;           ;;  
+                  ;       ;;  ;;        ;;    ;;             ;;     ;;             ;; 
+                  ;;;;;;;;;;  ;;;;;;;;;;;;   ;;               ;;   ;;               ;;
+            }
+            ;
+        }
+        ;
+    }
+}
+
+
+void value(){
+    const int test = 110;
+    int op;
+    scanf(op);
+         if(op==1) printf (test);
+        else if(op==2) printf ('b');
+        else printf((((((('b')))))));
+
+    
+}
+
+void main(){
+    char op;
+    scanf(op);    
+    
+    do{
+        if(-1){
+            if((op)== ('e'))    {printf(foo_expr());}
+            else if((op)==('r'))    {{foo_recursion();}}
+            else if((op)==('n'))    {{{do_nothing();}}}
+            else if((op)==('v'))     {{{{value();}}}}
+            else    printf("Please input e/r/n/v instead of ",op);
+        }else;
+    }while(0);
+    
+    return;
+}

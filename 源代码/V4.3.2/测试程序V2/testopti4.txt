@@ -1,0 +1,14 @@
+void main(){
+    const int a = 1;
+    const int b = 3;
+    if(1)
+{
+     printf(a + 1);
+
+}else
+{
+     printf(b);
+}
+    
+
+}

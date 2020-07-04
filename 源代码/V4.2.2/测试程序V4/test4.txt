@@ -1,0 +1,26 @@
+int lots_para_oneBlock(int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8, int p9, int p10){
+	printf(p1);
+	printf(" ", p5);
+	printf(" ", p7);
+	printf(" ", p10);
+	printf(" ", p1+p2+p3+p4+p5+p6+p7+p8+p9+p10);
+	printf(" |");
+	return (p1+p2+p3+p4+p5+p6+p7+p8+p9+p10);
+}
+int lots_para_blocks(int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8, int p9, int p10){
+	int i;
+	i = 0;
+	do{
+		printf(" ", p1);
+		printf(" ", p5);
+		printf(" ", p7);
+		printf(" ", p10);
+		printf("", p1+p2+p3+p4+p5+p6+p7+p8+p9+p10);
+		printf(" |");
+		i = i+1;
+	}while(i<3);
+	return (p1+p2+p3+p4+p5+p6+p7+p8+p9+p10);
+}
+void main(){
+	printf(lots_para_oneBlock(1, 2, 4, 7, 16, 21, 25, 31, 37, 43)+lots_para_blocks(1, 2, 4, 7, 16, 21, 25, 31, 37, 43));
+}

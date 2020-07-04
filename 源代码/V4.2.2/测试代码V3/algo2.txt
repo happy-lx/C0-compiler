@@ -1,0 +1,36 @@
+int Modulo(int A, int B) {
+  if (B == 0) {
+    printf("ZeroDivisionError");
+    return (-1);
+  }
+  return (A - A / B * B);
+}
+
+int FastPower(int A, int B) {
+  int Result;
+  Result = 1;
+  if(B!=0){
+  do {
+    if (Modulo(B, 2) == 1) {
+      Result = Result * A;
+    }
+    A = A * A;
+    B = B / 2;
+  }while (B != 0)
+  }
+  return (Result);
+}
+
+void TestFastPower(int a) {
+  printf("FastPower:");
+  printf("Expect 0: ", FastPower(0, 2));
+  printf("Expect 1: ", FastPower(1, 0));
+  printf("Expect 4: ", FastPower(2, 2));
+  printf("Expect 8: ", FastPower(2, 3));
+  printf("Expect 1024: ", FastPower(2, 10));
+}
+
+void main() {
+  printf("Test FastPower:");
+  TestFastPower(0);
+}

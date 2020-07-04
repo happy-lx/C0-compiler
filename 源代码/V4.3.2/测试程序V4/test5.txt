@@ -1,0 +1,31 @@
+int foo2(){
+	return (2);
+}
+
+int foo3(int a){
+	return (a+3);
+}
+
+int call1(int a){
+	return (a+1);
+}
+int call2(int a){
+	return (a+2);
+}
+int call3(int a){
+	return (a+3);
+}
+int call4(int a){
+	return (a+4);
+}
+int call5(int a){
+	return (a+5);
+}
+
+int super_expr(int a, int b){
+	return (12+(222222222+4+('a'))/10086*100/(foo2())+(a+b)+(a+b)+(a+b)+foo3(a+b)+(a+b)+call5(call4(call3(call2(call1(5))))));
+}
+
+void main() {
+	printf(super_expr(12, 30));
+}

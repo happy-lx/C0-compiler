@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1587203555 source:e:\编译原理程序记录\v1.0.0\lex.c
+	"global.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+
+1587204100 e:\编译原理程序记录\v1.0.0\global.h
+	<stdio.h>
+	<stdlib.h>
+
+1587203555 e:\编译原理程序记录\v1.0.0\lex.h
+	"global.h"
+
+1587205249 source:e:\编译原理程序记录\v1.0.0\grammer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+	"global.h"
+	"grammer.h"
+
+1587202341 e:\编译原理程序记录\v1.0.0\grammer.h
+
+1587793852 source:e:\编译原理程序记录\v1.0.1\grammer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+	"global.h"
+	"grammer.h"
+
+1587265705 e:\编译原理程序记录\v1.0.1\lex.h
+	"global.h"
+
+1587784778 e:\编译原理程序记录\v1.0.1\global.h
+	<stdio.h>
+	<stdlib.h>
+
+1587564426 e:\编译原理程序记录\v1.0.1\grammer.h
+	"global.h"
+
+1587541694 source:e:\编译原理程序记录\v1.0.1\lex.c
+	"global.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lex.h"
+
+1587784778 source:e:\编译原理程序记录\v1.0.1\symbol.c
+	"global.h"
+	"symbol.h"
+	"grammer.h"
+	"lex.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1587781301 e:\编译原理程序记录\v1.0.1\symbol.h
+	"global.h"
+
+1587794018 source:e:\编译原理程序记录\v1.0.1\semantic.c
+	"symbol.h"
+	"global.h"
+	"lex.h"
+	"grammer.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+

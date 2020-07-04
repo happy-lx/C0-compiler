@@ -1,0 +1,62 @@
+int IterativeFactorial(int Order) {
+  int Product;
+  int I;
+
+  if (Order < 0) {
+    printf("Invalid Order: ", Order);
+    return(-1);
+  }
+
+  if (Order == 0) return(1);
+
+  Product = 1;
+  I = 1;
+  if(I <= Order){
+  do {
+    Product = Product * I;
+    I = I + 1;
+  }while (I <= Order)
+  }
+  return(Product);
+}
+
+int RecursiveFactorial(int Order) {
+  if (Order < 0) {
+    printf("Invalid Order: ", Order);
+    return(-1);
+  }
+
+  if (Order == 0) return(1);
+
+  return(Order * RecursiveFactorial(Order - 1));
+}
+
+void TestRecursiveFactorial() {
+  RecursiveFactorial(-1);
+  printf("Expect 1: ", RecursiveFactorial(0));
+  printf("Expect 1: ", RecursiveFactorial(1));
+  printf("Expect 2: ", RecursiveFactorial(2));
+  printf("Expect 6: ", RecursiveFactorial(3));
+  printf("Expect 24: ", RecursiveFactorial(4));
+  printf("Expect 120: ", RecursiveFactorial(5));
+  printf("Expect 720: ", RecursiveFactorial(6));
+}
+
+void TestIterativeFactorial() {
+  printf("Expect -1: ");
+  IterativeFactorial(-1);
+
+  printf("Expect 1: ", IterativeFactorial(0));
+  printf("Expect 1: ", IterativeFactorial(1));
+  printf("Expect 2: ", IterativeFactorial(2));
+  printf("Expect 6: ", IterativeFactorial(3));
+  printf("Expect 24: ", IterativeFactorial(4));
+  printf("Expect 120: ", IterativeFactorial(5));
+  printf("Expect 720: ", IterativeFactorial(6));
+}
+
+void main() {
+  printf("Test Factorial:");
+  TestRecursiveFactorial();
+  TestIterativeFactorial();
+}

@@ -1,0 +1,130 @@
+const int max_const_int = 9, min_const_int=-11;                       
+const int for_compare1 = 236, for_compare2 = 39;
+const char pillar_const_char1 = 'A', pillar_const_char2 = 'B', pillar_const_char3 = 'C';
+int no_count;                                       
+
+void move(int m, char x, char y)                    
+{           
+    const char xx='1';                
+	int xxx;
+	no_count = no_count + 1;
+	printf("No.", no_count);                     
+	printf("   ", m);                           
+	printf(" from ", x);
+	printf(" to ", y);
+	printf("   |   ");                              
+}
+
+
+char lower_letter(char ch)
+{
+	if (ch>='a')
+	{
+		if (ch <='z')
+			return (ch);
+	}
+	else
+	{
+		if (ch <='Z')
+		    return (ch-'A'+'Z');
+	}
+}
+
+
+void hanoi(int m, char A, char B, char C)
+{
+	if (m == 1) 
+		move(m, A, C);                             
+	else
+	{
+		hanoi(m - 1, A, C, B);                     
+		move(m, A, C);
+		hanoi(m - 1, B, A, C);
+	}
+}
+
+int search(int n, int p)                           
+{
+	const int for_mod_con = 2;
+	int for_mod_int;
+	if (n == 1) return (p);
+	for_mod_int = n / for_mod_con;
+	p = p + 1;
+	if (for_mod_int*for_mod_con==n)
+		return (search(for_mod_int, p));
+	return (search(3 * n + 1, p));                    
+}
+
+void main()                                         
+{
+	const int max_time = 12;
+	int n, sum, i, Sum;
+	int ans_for_3n;
+	int try_sz;
+	int try_Sz;
+	int int_Sz[2];
+	int int_sz[12];
+	char char_sz[12];
+	char char_one;
+	int a,b,c,d;
+	
+	scanf(a,b,c,d);
+	no_count=0;
+	try_sz = 0;
+	char_one = 33;
+
+	printf("compare: ", for_compare1 - for_compare2);
+	printf("express: -+1+2 = ", -+1 + 2);
+	printf("express: +-1+2 = ", +-1 + 2);
+	
+	a = -+20+-12;
+	b = --2++1--3++4;
+	printf(a);
+	printf(b);
+	int_Sz[0] = -1;
+	int_Sz[1] = lower_letter('A')*2 / 2;
+	int_Sz[2] = 1 + lower_letter('z')*1;
+	do                                              
+	{
+		char_sz[try_sz] = char_one;
+		int_sz[try_sz] = try_sz;
+		char_one = char_one + 4;
+		try_sz = try_sz + 1;
+	} while (try_sz != max_time)
+
+	try_sz = 0;
+	do
+	{
+		printf(" ",char_sz[try_sz]);
+		try_sz = try_sz + 1;
+	} while (try_sz < max_time)
+
+	printf(" ");
+	for (i = try_sz-1; i >= 0; i = i - 1)
+		printf(" ", int_sz[i]);
+	;;
+
+	sum = 1;
+	Sum = 0;
+	if (sum == Sum)                                
+		printf("sum==Sum? Yes!");
+	else
+		printf("sum==Sum? No!");
+	
+
+	scanf(n);                                
+	if (n >= max_const_int)
+	{
+		printf("It's too large for hanno!");
+		ans_for_3n = search(n, 0);
+		printf("Change times: ", ans_for_3n);
+	}
+	else
+	{
+		for (i = 1; i <= n; i = i + 1)
+			sum = sum * 2;
+		sum = sum - 1;
+		printf("\12345",sum);
+		hanoi(n, pillar_const_char1, pillar_const_char2, pillar_const_char3);
+	}
+}

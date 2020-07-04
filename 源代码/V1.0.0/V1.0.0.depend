@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1586748793 source:e:\编译原理程序记录\v1.0.0\main.c
+	"global.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1586707888 e:\编译原理程序记录\v1.0.0\global.h
+	<stdio.h>
+	<stdlib.h>
+

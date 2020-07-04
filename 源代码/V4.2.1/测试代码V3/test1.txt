@@ -1,0 +1,53 @@
+const int a = 1,b = -2;
+const char e = 'a';
+const float c = 3.14,d = -0.28;
+
+int f,g;
+float h,i5;
+char j,k5;
+
+int f1(int var1,char var2,float var3) {
+	int i;
+	i=0;
+	printf("output a number >3");
+	while (i<3) {
+	i=i+var1;
+	}
+	printf(i);
+	i=var2*var3;
+	printf("output var2*var3",i);
+	i=100.;
+	return (i);
+}
+
+void f2() {
+	int i;
+	printf("please input a number");
+	scanf(i);
+	switch(i) {
+	case +1:printf("1");
+	case +2:printf("2");
+	default:printf("error");
+	}
+	printf("qwer");
+}
+
+void main() {
+	const int c1=3;
+	int i1;
+	char i2;
+	float i3;
+	int k;
+	printf("please input three number");
+	scanf(i1,i2,i3);
+	k=f1(i1,i2,i3);
+	printf(k);
+	f2();
+	printf("const1:",c1);
+	printf("a:",a);
+	printf("b:",b);
+	printf("c:",c);
+	printf("d:",d);
+	printf("e:",e);
+}
+

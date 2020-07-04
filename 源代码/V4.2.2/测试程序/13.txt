@@ -1,0 +1,16 @@
+int bbb(int c)
+{
+     return (0);
+}
+void test()
+{
+
+     printf("Expected 1: ", bbb(1));
+
+
+}
+
+void main()
+{
+
+}

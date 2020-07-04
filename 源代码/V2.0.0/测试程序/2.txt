@@ -1,0 +1,39 @@
+int max(int i,int j){
+	if(i>j){
+		return (i);	
+	}
+	else{return (j);
+	}
+}
+int min(int i,int j){
+	if(i>j){
+		return (j);	
+	}
+	else{
+		return (i);
+	}
+}
+void main(){
+	int Ax1,Ay1,Ax2,Ay2,Bx1,By1,Bx2,By2,a,b,MAX_AX,MAX_BX;
+	int MIN_AX,MIN_BX,MAX_AY,MAX_BY,MIN_AY,MIN_BY;
+	scanf(Ax1,Ay1,Ax2,Ay2);
+	scanf(Bx1,By1,Bx2,By2);
+	MAX_AX=max(Ax1,Ax2);
+	MAX_BX=max(Bx1,Bx2);
+	MIN_AX=min(Ax1,Ax2);
+	MIN_BX=min(Bx1,Bx2);
+	MAX_AY=max(Ay1,Ay2);
+	MAX_BY=max(By1,By2);
+	MIN_AY=min(Ay1,Ay2);
+	MIN_BY=min(By1,By2);
+	if(min(MAX_AX,MAX_BX)-max(MIN_AX,MIN_BX)>0){
+		if(min(MAX_AY,MAX_BY)-max(MIN_AY,MIN_BY)>0){
+			a=min(MAX_AX,MAX_BX)-max(MIN_AX,MIN_BX);
+			b=min(MAX_AY,MAX_BY)-max(MIN_AY,MIN_BY);
+			printf(a*b);
+		}
+	}
+	else{
+			printf(0);
+	}		
+}

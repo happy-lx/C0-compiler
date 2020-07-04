@@ -1,0 +1,50 @@
+const float pi=3.14;
+
+void square(float a) {
+	float result;
+	int func;
+	result=0;
+	printf("function C_square S_square");
+	scanf(func);
+	switch(func) {
+	case 1:result=4*a;
+	case 2:result=a*a;
+	}
+	printf("result:",result);
+}
+
+void circle(float r) {
+	float result;
+	int func;
+	result=0;
+	printf("function C_circle S_circle");
+	scanf(func);
+	if (func==1) result=2*pi*r;
+	if (func==2) result=pi*(r*r);
+	printf("result:",result);
+}
+
+void main() {
+	int func;
+	float a;
+	while (1) {
+	printf("function: 1:square 2:circle 3:exit");
+scanf(func);
+	switch(func) {
+	case 1:{
+	printf("bianchang");
+	scanf(a);
+	square(a);
+	}
+	case 2:{
+	printf("banjing");
+	scanf(a);
+	circle(a);
+	}
+	case 3:return ;
+	default: {
+	printf("error");
+	}
+	}
+}
+}

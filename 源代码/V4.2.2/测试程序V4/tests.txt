@@ -1,0 +1,1212 @@
+﻿No.1  done! branch statement bug fix
+input:
+0
+
+output:
+-1001
+-40
+10
+8
+261
+-190
+30
+11
+-1
+a 
+
+input:
+1
+
+output:
+-233
+a
+1
++
+0
+_
+233
+9
+-2
+b
+
+input:
+2
+
+output:
+8
+2
+257
+1
+r
+a
+a
+x
+-3
+c
+
+input:
+3 233 r
+
+output:
+ !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+int_test_input = 233
+char_test_input = r
+0
+_
+
+input:
+4
+
+output:
+1
+2
+3
+4
+5
+6
+7
+8
+-5
+e
+
+-------------------------------------
+No. 2 done!  optimize the error
+input 1
+ test_expression c=0 test_expression c=49 test_expression c=98
+input 2
+test_if output the less one output 2 test_while output a[0] a[1] a[2]:0  0  6 test_switch input one char:a or b 
+    a  
+    a 162
+
+    b 
+    b 164 
+
+input 3
+enter:
+    ab 
+    65  66
+
+    mg 
+    77  71
+
+input 4
+test_switch input one char:a or b     
+    a 
+    a 162  F
+
+    b 
+     b 164  F
+
+input 5
+error input!@#$%%^&/|{[('')]}~
+
+
+-------------------------------------
+No.3 done!  found reg distribution bug !=-1change to >0
+found reg bug use def 
+
+Input two numbers to calculate GCD
+**** user input : 100
+**** user input : 36
+Two input for GCD 100
+36
+Greatest Common Division of 100
+36
+is 4
+100
+empty parameter list & condition is a single expression2
+empty parameter list & condition is a single expression1
+as plain as daylight 1\n
+as plain as daylight 2
+Print an expression alone & print string with expression & all the <zi fu>
+apples[0] is1
+4967
+ !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+Some empty sentences
+Hello World
+sreg[count] is12
+sreg[count] is13
+sreg[count] is14
+sreg[count] is15
+sreg[count] is16
+sreg[count] is17
+sreg[count] is18
+sreg[count] is19
+sreg[count] is20
+sreg[count] is21
+if & switch & condition is a relation expression & all valid string & valid char,num
+A valid <zi fu>a
+
+-------------------------------------
+No.4 done!  found insert table bug kind didnot update timely
+
+
+12
+asThe 0-th Fibonacci sequence number is:0
+The 1-th Fibonacci sequence number is:1
+The 2-th Fibonacci sequence number is:1
+The 3-th Fibonacci sequence number is:2
+The 4-th Fibonacci sequence number is:3
+The 5-th Fibonacci sequence number is:5
+The 6-th Fibonacci sequence number is:8
+The 7-th Fibonacci sequence number is:13
+The 8-th Fibonacci sequence number is:21
+The 9-th Fibonacci sequence number is:34
+The 10-th Fibonacci sequence number is:55
+The 11-th Fibonacci sequence number is:89
+    1
+Too small
+s
+i is Bigger than 200
+The current character is:o
+i is Bigger than 200
+input 12+23+34+6   85
+input 12+23+45+8     173
+
+ a is1
+ b is35
+ c is36
+ d is3
+ e is68
+ f is34
+ g is4 this is undefined
+
+only_letter is:-49
+letter_only is:162
+The second g is: 581
+???12+23+34+6
+Calculate the result_2 is: 1826
+Calculate the result_3 is: 1746
+???12+32+34+8
+Calculate the result_1 is: 7038
+Calculate the result_4 is: 96
+
+
+-------------------------------------------
+No.5  same as No.3
+
+1. ËæìÂÖ• 60 48
+   ËæìÂá∫
+        Input two numbers to calculate GCD
+        60 48
+        Two input for GCD 60
+        48
+        Greatest Common Division of 60
+        48
+        is 12
+
+2. ËæìÂÖ• 100 200
+   ËæìÂá∫
+        Input two numbers to calculate GCD
+        100 200
+        Two input for GCD 100
+        200
+        Greatest Common Division of 100
+        200
+        is 100
+        100
+        empty parameter list & condition is a single expression 2
+        empty parameter list & condition is a single expression 1
+        as plain as daylight 1
+        as plain as daylight 2
+        Print an expression alone & print string with expression & all the <zi fu>
+        apples[0] is 1
+        4893
+        Some empty sentences
+        Hello World
+        if & switch & condition is a relation expression & all valid string & valid char,num
+        char 34 is not included!
+        A valid <zi fu> 42
+        A valid <zi fu> 43
+        A valid <zi fu> 45
+        A valid <zi fu> 47
+        A valid <zi fu> 48
+        A valid <zi fu> 49
+        A valid <zi fu> 50
+        A valid <zi fu> 51
+        A valid <zi fu> 52
+        A valid <zi fu> 53
+        A valid <zi fu> 54
+        A valid <zi fu> 55
+        A valid <zi fu> 56
+        A valid <zi fu> 57
+        A valid <zi fu> 65
+        A valid <zi fu> 66
+        A valid <zi fu> 67
+        A valid <zi fu> 68
+        A valid <zi fu> 69
+        A valid <zi fu> 70
+        A valid <zi fu> 71
+        A valid <zi fu> 72
+        A valid <zi fu> 73
+        A valid <zi fu> 74
+        A valid <zi fu> 75
+        A valid <zi fu> 76
+        A valid <zi fu> 77
+        A valid <zi fu> 78
+        A valid <zi fu> 79
+        A valid <zi fu> 80
+        A valid <zi fu> 81
+        A valid <zi fu> 82
+        A valid <zi fu> 83
+        A valid <zi fu> 84
+        A valid <zi fu> 85
+        A valid <zi fu> 86
+        A valid <zi fu> 87
+        A valid <zi fu> 88
+        A valid <zi fu> 89
+        A valid <zi fu> 90
+        A valid <zi fu> 95
+        A valid <zi fu> 97
+        A valid <zi fu> 98
+        A valid <zi fu> 99
+        A valid <zi fu> 100
+        A valid <zi fu> 101
+        A valid <zi fu> 102
+        A valid <zi fu> 103
+        A valid <zi fu> 104
+        A valid <zi fu> 105
+        A valid <zi fu> 106
+        A valid <zi fu> 107
+        A valid <zi fu> 108
+        A valid <zi fu> 109
+        A valid <zi fu> 110
+        A valid <zi fu> 111
+        A valid <zi fu> 112
+        A valid <zi fu> 113
+        A valid <zi fu> 114
+        A valid <zi fu> 115
+        A valid <zi fu> 116
+        A valid <zi fu> 117
+        A valid <zi fu> 118
+        A valid <zi fu> 119
+        A valid <zi fu> 120
+        A valid <zi fu> 121
+        A valid <zi fu> 122
+
+3. ËæìÂÖ• 101 200
+   ËæìÂá∫
+        Input two numbers to calculate GCD
+        101 200
+        Two input for GCD 101
+        200
+        Greatest Common Division of 101
+        200
+        is 1
+        Empty Default Case
+
+4. ËæìÂÖ• 50 1400
+   ËæìÂá∫ 
+        Input two numbers to calculate GCD
+        50 100
+        Two input for GCD 50
+        100
+        Greatest Common Division of 50
+        100
+        is 50
+
+5. ËæìÂÖ• 600 26
+   ËæìÂá∫
+        Input two numbers to calculate GCD
+        600 26
+        Two input for GCD 600
+        26
+        Greatest Common Division of 600
+        26
+        is 2
+
+
+------------------------------------------
+No.6  done! found mips opt bug use after def
+
+1 1 +
+
+print string and expr, got char: l
+test expr\n
+58
+11
+2
+
+
+11 10 -
+
+ !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+test expr\n
+58
+11
+8
+
+
+1 -1 =
+
+print string and expr, got char: o
+test expr\n
+58
+11
+21
+
+-------------------------------------------
+No.7    done! Wow takes 13s has been optimized
+
+INPUT:
+12
+a
+x
+123
+
+
+OUTPUT:
+2
+a
+120
+ !#$&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~
+1
+test printf:-4318
+12ax123
+all test:2668
+---------------------------------------
+No.8    
+
+2
+h
+0
+2
+4
+""" !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+"IO i:"2hh103208
+"beq0bgt?"0
+"result"98010
+"fibo(fn):"3
+
+5
+a
+3
+3
+10
+""" !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+"IO i:"5aa96194
+"bge1"0
+"result"98010
+"fibo(fn):"55
+
+-----------------------------------------
+No.9 done!
+
+==========================Example 1================================
+> input:
+    e 1 2 3
+> output:
+    Three integers
+    -193
+
+==========================Example 2================================
+> input:
+    r 3
+> output:
+    Full permutation, please input a number(<100)
+    Finished!
+
+
+==========================Example 3================================
+> input:
+    n
+> output:
+
+==========================Example 4================================
+> input:
+    v 2
+> output:
+    b
+
+==========================Example 5================================
+> input:
+    w
+> output:
+    Please input e/r/n/v instead of w
+
+-------------------------------------
+No.10  done! fix bug about label optimized
+
+
+Input:3 7 Q
+
+Output:
+Please Input Lower Bound and Upper Bound:3 7
+Please Input A Char:Q
+X sum to Y = 25
+It's already 2018
+Letter is Q
+It is not Lower c.2
+\tReturnC is Upper C.\n
+
+Complex Expression = 100
+Letter is 0
+Error Type Not Define.
+Final i = 1
+Register_Disater = 12
+**************************************************
+ÔøΩ?Input:10 5 C
+
+Output:
+Please Input Lower Bound and Upper Bound:10 3
+Please Input A Char:C
+Invalid Input.
+It's already 2018
+Letter is C
+It is not Lower c.2
+\tReturnC is Upper C.\n
+
+Complex Expression = 100
+Letter is 0
+Error Type Not Define.
+Final i = 1
+Register_Disater = 12
+**************************************************
+ÔøΩ?Input:-5 5 c
+
+Output:
+Please Input Lower Bound and Upper Bound:-5 5
+Please Input A Char:c
+X sum to Y = 0
+It's already 2018
+Letter is c
+It is Lower c1
+\tReturnC is Upper C.\n
+
+Complex Expression = 100
+Letter is 0
+Error Type Not Define.
+Final i = 1
+Register_Disater = 12
+
+-------------------------------------
+No.11 done!
+testcase 1:
+input : 2 1 + 2
+
+test for success
+_
+3
+*
+11
+You can choose m numbers permutations from n numbers ? T
+___________
+ 1
+ 2
+___________
+ 1
+ 3
+___________
+ 2
+ 1
+___________
+ 2
+ 3
+___________
+ 3
+ 1
+___________
+ 3
+ 2
+___________
+
+testcase 2: 
+input : 12 -1 - 6
+
+test for success
+_
+13
+*
+33
+You can choose m numbers permutations from n numbers ? F
+___________
+error input: 0 < m <= n <= 10
+
+testcase 3:
+input: 2 3 * 7
+
+test for success
+_
+6
+*
+21
+You can choose m numbers permutations from n numbers ? F
+___________
+error input: 0 < m <= n <= 10
+
+
+testcase4:
+input : 7 0 / 1
+
+test for success
+_
+0
+*
+11
+You can choose m numbers permutations from n numbers ? F
+___________
+error input: 0 < m <= n <= 10
+
+testcase 5:
+input: 6 2 / 0
+
+test for success
+_
+3
+*
+14
+You can choose m numbers permutations from n numbers ? F
+___________
+error input: 0 < m <= n <= 10
+
+
+testcase 6:
+input : 3 1 * 3
+
+test for success
+_
+3
+*
+13
+You can choose m numbers permutations from n numbers ? T
+___________
+ 1
+ 2
+ 3
+___________
+ 1
+ 3
+ 2
+___________
+ 2
+ 1
+ 3
+___________
+ 2
+ 3
+ 1
+___________
+ 3
+ 1
+ 2
+___________
+ 3
+ 2
+ 1
+___________
+
+
+-----------------------------------
+No.12   done!
+##input
+1 8
+##output
+21
+
+
+
+##input
+2 
+##output
+q1=99 
+q2=0
+q3=97
+
+##input
+3
+##output
+before q2:
+3
+later q2:
+0
+
+##input
+4
+##output
+before q2:
+3
+later q2:
+4
+
+##input
+5
+##output
+! #$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ
+[]^_`abcdefghijklmnopqrstuvwxyz{|}~
+
+
+##input
+6
+##output
+2
+c
+
+##input
+7
+##output
+2
+100
+
+##input
+8
+##output
+10
+97
+
+##input
+9 1 a
+##output
+test9
+q1=1
+c1=
+a
+
+##input
+10
+##output
+1
+-100
+37
+64
+
+##input
+11
+##output
+1
+2
+2
+3
+3
+4
+
+##input
+12
+##output
+95
+2847
+2015
+
+##input
+13
+##output
+45
+
+##input
+14
+##output
+15
+
+-----------------------------------
+No.13  done!
+
+//for must execute once 
+===========ÊµãËØï1===========
+1 enter 5 enter bc6 enter ?1 5bc6
+588___ !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~___\n\t\\\'___@@@@@
+
+
+===========ÊµãËØï2===========
+ËæìÂÖ•ÔøΩ?2
+ËæìÂá∫ÔøΩ?-3304 2585 1 ojbk ojbk 10186
+
+
+===========ÊµãËØï3===========
+ËæìÂÖ•ÔøΩ?3
+ËæìÂá∫ÔøΩ?123b-300_ff4_1686722hg1142
+---------------------------------------
+No.14 done!
+ÂÖàËæìÔøΩ?!@#$%abcd114514ABCD963287~;: 
+720
+17
+65
+121
+
+‰πãÂêéÊ†πÊçÆËæìÂÖ•ÔºåÂèØÂæóÁõ∏Â∫îËæìÂá∫‰∏∫->‰∏ãËæπÁöÑÈÉ®ÔøΩ?1
+3
+->
+1 hit
+3 hit
+-117
+-1
+
+-3
+1
+->
+3 hit
+5 hit
+6 hit
+-1
+
+6
+-1
+->
+1 hit
+2 hit
+3 hit
+-85
+-1
+
+-4
+3
+->
+3 hit
+4 hit
+5 hit
+6 hit
+-1
+
+---------------------------------------
+No.15 done!
+
+-1 2 3
+j != 4  wrong! 30 -6 216 0 this is temp:-44
+
+0 2 1
+j != 4 1 28 -4 192 0 in1>=in2! this is temp:-20
+
+
+4 3 1
+34 29 -3 208 0 in1>=in2! in1>=in2! this is temp:40
+
+------------------------------------------
+No.16 done!
+
+ËæìÂÖ•ÔøΩ?1
+a
+1
+a
+a1
+
+ËæìÂá∫ÔøΩ?ÈªòËÆ§ÊØèÊ¨°ËæìÂá∫ÂêéÊç¢Ë°åÔºâ
+************************************************
+Start testing recursion:
+take
+1
+from
+a
+to
+b
+take
+2
+from
+a
+to
+c
+take
+1
+from
+b
+to
+c
+take
+3
+from
+a
+to
+b
+take
+1
+from
+c
+to
+a
+take
+2
+from
+c
+to
+b
+take
+1
+from
+a
+to
+b
+take
+4
+from
+a
+to
+c
+take
+1
+from
+b
+to
+c
+take
+2
+from
+b
+to
+a
+take
+1
+from
+c
+to
+a
+take
+3
+from
+b
+to
+c
+take
+1
+from
+a
+to
+b
+take
+2
+from
+a
+to
+c
+take
+1
+from
+b
+to
+c
+************************************************
+Start testing global:
+12345679
+0
+0
+-12345679
+9
+_
++
+*
+12345679
+-12345679
+9
+*
+0
+1
+1
+2
+3
+1
+1
+2
+6
+2
+a
+A
+z
+Z
+_
++
+-
+*
+/
+6
+************************************************
+Start testing return:
+22
+a
+b
+c
+_
+************************************************
+Start testing I/O:
+1
+a!@\n#$^&*()Qqaa123[];',./
+1
+a
+1
+a!@\n#$^&*()Qqaa123[];',./
+1
+a
+a1
+!@\n#$^&*()Qqaa123[];',./
+a
+1
+************************************************
+Start testing assign & exp:
+1
+40320
+-2
+1
+3
+a
+_
+a
+_
+903264
+************************************************
+Start testing if & while:
++
+-
++
+-
++
+/
+*
+/
+*
+/
+************************************************
+Start testing switch:
+a
+1
+b
+3
+_
+************************************************
+Start testing parameter:
+INPUT of func_ret_int_1:
+12345679
+-12345679
+A
+Z
+OPERATE of func_ret_int_1:
+-12345679
+12345679
+Z
+A
+-12345679
+************************************************
+
+-----------------------------------------
+No.17 done!
+//for must execute onece
+
+ÊåâÈ°∫Â∫èÂàÜÂà´ËæìÂÖ•var_1,var_2,char_1,char_2ÁöÑÂÄºÔøΩ?
+ÂàÜÊîØ1ÔøΩ?ËæìÂÖ•ÔøΩ?var_1,var_2‰∏≠Êúâ‰∏çÊòØÊï¥Êï∞ÁöÑÔºåÊàñchar_1,char_2‰∏≠Êúâ‰∏çÊòØÂ≠óÁ¨¶ÔøΩ?ËæìÂá∫ÔøΩ?Êä•Èîô
+
+
+ÂàÜÊîØ3:ÔøΩ?ËæìÂÖ•ÔøΩ?var_1ÔøΩ?ÊàñË¥üÊï∞Ôºåvar_2‰∏∫‰ªªÊÑèÊîØÊåÅÁöÑÊï¥Êï∞Ôºåchar_1‰∏∫c1Ôºåchar_2‰∏∫c2ÔºåÔºàc1„ÄÅc2ÊòØÁ¨¶ÂêàÊñáÊ≥ïÁöÑ‰ªªÊÑèÂçï‰∏™Â≠óÁ¨¶ÔøΩ?ËæìÂá∫ÔøΩ?n:'‰∏∫Ë°åÊï∞Ôºå‰∏∫‰∫ÜÊñπ‰æøËØ¥ÊòéËÄåÊ†áÊ≥®ÔºåÂÆûÈôÖËæìÂá∫Ê≤°ÊúâËØ•È°πÔºâÔºö
+1 :Hello world!
+2 :var_1 is not positive
+3 :var_2 is 5
+4 :sum of ary is 85
+5 :factorial of 3 is 6
+6 :char_1 is *c1,char_2 is *c2,sum of char_1 and char_2 is *s
+7 :char c = c,count down 3
+8 :char c = c,count down 2
+9 :char c = c,count down 1
+10:c times pai is 297
+11:ascii no.70 is F
+
+
+ÂàÜÊîØ2ÔøΩ?ËæìÂÖ•ÔøΩ?var_1‰∏∫Ê≠£Êï∞Ôºåvar_2‰∏∫‰ªªÊÑèÊîØÊåÅÁöÑÊï¥Êï∞Ôºåchar_1‰∏∫c1Ôºåchar_2‰∏∫c2ÔºåÔºàc1„ÄÅc2ÊòØÁ¨¶ÂêàÊñáÊ≥ïÁöÑ‰ªªÊÑèÂçï‰∏™Â≠óÁ¨¶ÔøΩ?ËæìÂá∫ÔøΩ?n:'‰∏∫Ë°åÊï∞Ôºå‰∏∫‰∫ÜÊñπ‰æøËØ¥ÊòéËÄåÊ†áÊ≥®ÔºåÂÆûÈôÖËæìÂá∫Ê≤°ÊúâËØ•È°πÔºâÔºö
+1 :Hello world!
+2 :var_1 is positive
+3 :var_2 is 5
+4 :sum of ary is 85
+5 :factorial of 3 is 6
+6 :char_1 is *c1,char_2 is *c2,sum of char_1 and char_2 is *s
+7 :char c = c,count down 3
+8 :char c = c,count down 2
+9 :char c = c,count down 1
+10:c times pai is 297
+11:ascii no.70 is F
+
+ËØ¥ÊòéÔøΩ?ÔøΩ?Ë°å‰∏≠ÔøΩ?c1,*c2‰∏∫ËæìÂÖ•ÁöÑc1„ÄÅc2ÔøΩ?s‰∏∫c1+c2ÁöÑÔøΩ?ËæìÂá∫ÁöÑÁ¨¨‰∏ÄË°åÊµãËØï‰∫ÜÁõ¥Êé•ÂÜôÂÖ•Â≠óÁ¨¶‰∏≤ËØ≠Âè•ÁöÑ
+ËæìÂá∫ÁöÑÁ¨¨‰∫åË°åÊ†πÊçÆvar_1ÊòØÂê¶‰∏∫Ê≠£Êï∞ËæìÂá∫Áõ∏Â∫î‰ø°ÊÅØÔºåÊµãËØï‰∫ÜËØªÂÖ•intÔºåifÊù°‰ª∂ËØ≠Âè•ÁöÑÊ≠£Á°ÆÔøΩ?ËæìÂá∫ÁöÑÁ¨¨‰∏âË°åÊµãËØï‰∫ÜwhileÂæ™ÁéØ‰ª•ÂèäË°®ËææÂºèËÆ°ÁÆóÁöÑÊ≠£Á°ÆÔøΩ?ËæìÂá∫ÁöÑÁ¨¨ÂõõË°åÊµãËØï‰∫ÜËæìÂá∫Ë°®ËææÂºèÔºå‰ª•ÂèäwhileÂæ™ÁéØ„ÄÅÊï∞ÁªÑÂÖÉÁ¥†ËµãÂÄº‰ª•ÂèäË∞ÉÁî®ÁöÑÊ≠£Á°ÆÔøΩ?ËæìÂá∫ÁöÑÁ¨¨‰∫îË°åÊµãËØï‰∫ÜÊúâÂèÇÊï∞ÁöÑÂáΩÊï∞Â£∞Êòé‰ª•ÂèäË∞ÉÁî®Ôºå‰ª•ÂèäÂáΩÊï∞ÁöÑÈÄíÂΩíË∞ÉÁî®ÁöÑÊ≠£Á°ÆÔøΩ?ËæìÂá∫ÁöÑÁ¨¨ÂÖ≠Ë°åÊµãËØï‰∫ÜÂ≠óÁ¨¶ËØªÂÖ•ÔºåÂ≠óÁ¨¶ÂèòÈáèËæìÂá∫Ôºå‰ª•ÂèäÂ≠óÁ¨¶ËÆ°ÁÆóÁöÑÊ≠£Á°ÆÔøΩ?ËæìÂá∫ÁöÑÁ¨¨‰∏ÉË°åÂà∞Á¨¨ÂçÅË°åÊµãËØï‰∫ÜÊó†ËøîÂõûÂÄºÁöÑÂáΩÊï∞ÁöÑÂ£∞Êòé‰ª•ÂèäË∞ÉÁî®ÁöÑÊ≠£Á°ÆÊÄßÔºåÊó†ÂèÇÊï∞ÁöÑÂáΩÊï∞ÁöÑÂ£∞Êòé‰ª•ÂèäË∞ÉÁî®ÔºåwhileÂæ™ÁéØÔºåÂ≠óÁ¨¶ËÆ°ÁÆóÁöÑÊ≠£Á°ÆÊÄßÔøΩ?ËæìÂá∫ÁöÑÁ¨¨ÂçÅË°åÊµãËØï‰∫ÜËøîÂõûÂÄº‰∏∫charÁ±ªÂûãÁöÑÂáΩÊï∞ÁöÑÊ≠£Á°ÆÊÄßÔøΩ?ÂèòÈáèÂ£∞Êòé„ÄÅ‰∏ªÂáΩÊï∞Á≠âÂü∫Á°ÄËØ≠Ê≥ïÊàêÂàÜÁöÑÊµãËØïÂåÖÂê´Âú®‰ª•‰∏äÂÜÖÂÆπ‰∏≠Ôºå‰∏çÂÜçÂçïÁã¨ÂàóÂá∫
+------------------------------------------
+No.18 done!
+//for must execute once
+ÁÇπÔºàÊ≥®ÔºöÂÆûÁé∞ÁöÑÊó∂ÂÄôÂú®ÊØè‰∏™printfËØ≠Âè•ÂêéÈù¢ÊâãÂä®ËæìÂá∫‰∏Ä‰∏™Êç¢Ë°åÊñπ‰æøÊ£ÄÊü•‰ΩøÁî®Ôºâ
+case 1
+ËæìÂÖ•:
+9
+1
+10
+ËæìÂá∫:
+-31
+...for loop work well
+...fibo result is :1
+...abs is: 10
+T
+\n! ~}|{abcABC<=+-$%&*()/
+1
+
+
+
+case2:
+ËæìÂÖ•:
+5
+2
+0
+ËæìÂá∫ÔøΩ?-31
+...for loop work well
+...fibo result is :1
+...abs is: 0
+T
+\n! ~}|{abcABC<=+-$%&*()/
+1
+
+
+case3:
+ËæìÂÖ•:
+0
+5
+-9
+ËæìÂá∫ÔøΩ?-31
+...for loop work well
+...fibo result is :5
+...abs is: 9
+T
+\n! ~}|{abcABC<=+-$%&*()/
+0
+
+------------------------------------------
+No.19  done!
+0 1 2 3
+0
+test_recursion begin:
+success!
+*********************
+1
+test_if begin:
+success1!
+success2!
+*********************
+2
+test_while begin:
+success!
+*********************
+3
+test_switch begin:
+success!
+*********************
+
+4 yes 5 6 7 8
+4
+test_scanf_printf begin:
+yesInput is:
+y
+e
+s
+89
+69
+83
+*********************
+5
+test_expression begin:
+success!
+*********************
+6
+test_symbol begin:
+success!
+*********************
+7
+test_relation_operator begin:
+ x<y:true
+ x<=y:true
+ x!=y:true
+ x>y:true
+ x>=y:true
+ x!=y:true
+ x==y:true
+ x>=y:true
+ x<=y:true
+*********************
+8
+test_scope begin:
+the global scope_var = 20
+the local scope_var = 10
+the global scope_var = 20
+success!
+*********************
+
+0 1 2 3 4 yes 5 6 7 8
+ch=_
+@#$$&*^^^^test end
+
+-----------------------------------------------------
+No.20 done!
+ÂàÜÊîØ1ÔøΩ?    ËæìÂÖ•:a 5 7 1 x
+    ËæìÂá∫:176 
+         55 
+         97 
+         a 
+         7 
+         This is A String ! #$%&'()*+,-./0123456789:<^_~|`
+         x 
+         25
+ÂàÜÊîØ2ÔøΩ?    ËæìÂÖ•:a 15 0 0 x
+    ËæìÂá∫:176
+         55
+         -15
+         a
+         10
+         This is A String ! #$%&'()*+,-./0123456789:<^_~|`
+         25
+ÂàÜÊîØ3ÔøΩ?    ËæìÂÖ•:c 5 -1 10 a
+    ËæìÂá∫ÔøΩ?76
+         55
+         0
+         c
+         10
+         This is A String ! #$%&'()*+,-./0123456789:<^_~|`
+         default
+         25
+
+-----------------------------------------------
+No.21 done!
+
+5
+2
+a
+a
+right\n-3
+5
+1
+wrong10
+wrong12
+a
+b
+wrongt7t8neq\n\t\r
+wrong\n
+10
+5
+wrong10
+wrong11
+wrong12
+b
+b
+wrong\n
+--------------------------------------------------
+No.22
+//for must excute once
+
+=============================================================
+input:
+0
+output:
+this is a string, !#$%&'()*+,-./0123456789:;<=>?@[\]^_`{|}~|
+T
+T
+T
+T
+T
+==============================================================
+input:
+2
+output:
+a
+2
+*
+T
+T
+T
+T
+T
+=======================================================
+input:
+1
+output:
+this is a string 5
+T
+T
+T
+T
+T
+--------------------------------------------------
+

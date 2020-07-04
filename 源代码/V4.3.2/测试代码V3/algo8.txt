@@ -1,0 +1,67 @@
+int IterativeFibonacci(int Order) {
+  int Fibonacci_0, Fibonacci_1;
+  int Temp;
+
+  if (Order < 0) {
+    printf("Invalid Order: ", Order);
+    return(-1);
+  }
+
+  if (Order == 0) return(0);
+  if (Order == 1) return(1);
+
+  Fibonacci_0 = 0;
+  Fibonacci_1 = 1;
+  if(Order > 1){
+  do {
+    Temp = Fibonacci_1;
+    Fibonacci_1 = Fibonacci_1 + Fibonacci_0;
+    Fibonacci_0 = Temp;
+    Order = Order - 1;
+  }while (Order > 1)}
+  return(Fibonacci_1);
+}
+
+int RecursiveFibonacci(int Order) {
+  if (Order < 0) {
+    printf("Invalid Order: ", Order);
+    return(-1);
+  }
+
+  if (Order == 0) return(0);
+  if (Order == 1) return(1);
+
+  return(RecursiveFibonacci(Order - 1) +
+      RecursiveFibonacci(Order - 2));
+}
+
+void TestIterativeFibonacci() {
+  printf("IterativeFibonacci:");
+  IterativeFibonacci(-1);
+  printf("Expect 0: ", IterativeFibonacci(0));
+  printf("Expect 1: ", IterativeFibonacci(1));
+  printf("Expect 1: ", IterativeFibonacci(2));
+  printf("Expect 2: ", IterativeFibonacci(3));
+  printf("Expect 3: ", IterativeFibonacci(4));
+  printf("Expect 5: ", IterativeFibonacci(5));
+  printf("Expect 8: ", IterativeFibonacci(6));
+  printf("Expect 13: ", IterativeFibonacci(7));
+}
+
+void TestRecursiveFibonacci() {
+  printf("RecursiveFibonacci:");
+  RecursiveFibonacci(-1);
+  printf("Expect 0: ", RecursiveFibonacci(0));
+  printf("Expect 1: ", RecursiveFibonacci(1));
+  printf("Expect 1: ", RecursiveFibonacci(2));
+  printf("Expect 2: ", RecursiveFibonacci(3));
+  printf("Expect 3: ", RecursiveFibonacci(4));
+  printf("Expect 5: ", RecursiveFibonacci(5));
+  printf("Expect 8: ", RecursiveFibonacci(6));
+  printf("Expect 13: ", RecursiveFibonacci(7));
+}
+
+void main() {
+  TestIterativeFibonacci();
+  TestRecursiveFibonacci();
+}

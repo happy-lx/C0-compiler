@@ -1,0 +1,13 @@
+void main(){
+    int a,b,c,d;
+    if(1)
+{
+     printf(a*2);
+
+}else
+{
+     printf(b);
+}
+    
+
+}

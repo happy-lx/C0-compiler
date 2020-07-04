@@ -1,0 +1,16 @@
+char noparalist{	
+	return('a');
+}
+int lesstype(int a, b){	
+	return(a);
+}
+int lessreturn(int a){	
+	a = a*2;
+}
+
+void main(){
+	printf("in");
+	int displaced;
+	return;
+}
+		

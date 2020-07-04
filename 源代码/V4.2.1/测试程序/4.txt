@@ -1,0 +1,90 @@
+const int len=8;
+const char t0='c',t1='o',t2='m', t3='p',t4='i',t5='l',t6='e',t7='r';
+char s[8],temp;
+int i,count;
+int exp(int x,int y,char c){
+	int result;
+	result=0;
+	
+	return (result);
+
+}
+int function1(int x){
+	if(x<0){
+		x=exp(x,-1 + 0,'*');
+	}
+	else{
+		x=exp(x,exp(x,0,'*'),'-');
+	}
+	
+	
+	return (0);
+
+}
+char function2(){
+	char c;
+	c='Z';
+	count=exp(exp(1000,exp(count,1,'+'),'*'),1000,'/');
+	scanf(c);
+	return (c);
+}
+void function3(int i){
+	printf("func3:",i);
+}
+void main(){
+	const int num=10;
+	int sum;
+	sum=0;
+	count=0;
+	temp='0';
+	printf(temp);
+	printf(t0);
+	printf(t1);
+	printf(t2);
+	printf(t3);
+	printf(t4);
+	printf(t5);
+	printf(t6);
+	printf(t7);
+	
+	
+	for(i=0;i<len;i=i + 1){
+		s[i]=function2();
+	}
+	printf("your input is:");
+	for(i=exp(len,-1,'+');i>=0;i=i - 1){
+		printf(s[exp(len,i,'-') - 1]);
+	}
+	printf("the amount of char is:",count);
+	
+	
+	
+	for( i=len - 1;i - 0>=0;i=i - 1){
+		if(s[i]>='g'){
+			if(s[i]!='g'){
+			    sum=sum+s[i];
+			}
+		}
+		else{
+			sum=sum-s[i];
+		}
+	}
+
+	printf("const testa 01234",sum);
+	
+	;;;
+	
+	printf(exp(s[1] - 0,exp(s[0]*1,exp(function1(exp(function1(2),function1(3),'+')),exp(function1(4),function1(5),'*'),'-'),'/'),'+'));
+	
+
+        if(sum>30){
+		sum=sum-sum/30*30;
+	}
+	
+	for(i=0;i<=sum;i=i + 1){
+		count=exp(count,function1(i),'+');
+	
+	}
+	printf(count);
+	return;	
+}

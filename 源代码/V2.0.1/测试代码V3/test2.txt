@@ -1,0 +1,25 @@
+void main() {
+	int a;
+	char b;
+	float c;
+	printf("compare with 0:");
+	scanf(a);
+	if (a>0)
+	printf("big");
+	if (a<0)
+	printf("small");
+	if (a==0) 
+	printf("equal");
+	printf("compare with k:");
+	scanf(b);
+	if (b>='k')
+	printf(">=");
+	if (b<='k')
+	printf("<=");
+	printf("compare with 3.14");
+	scanf(c);
+	if (c==3.14)
+	printf("equal");
+	if (c!=3.14)
+	printf("unequal");
+}

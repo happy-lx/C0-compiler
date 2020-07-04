@@ -1,0 +1,14 @@
+const char a='c';
+const char kmk='a';
+int a;
+int x(){
+    int a[-1],c[;
+    char asd;
+    a[1=asdasdsad;
+    asd'a';
+    asd='a;
+    as d='a';
+}
+int min;
+void main(){
+    printf);

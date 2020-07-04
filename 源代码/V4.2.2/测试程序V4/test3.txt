@@ -1,0 +1,52 @@
+
+void oneBlock(int a){
+	int t0, t1, t2, t3, t4, t5, t6, t7, t8, t9;
+	t0 = 12+5+8*3-2+a;
+	t1 = t0-a*a;
+	t2 = t1+7;
+	t3 = t0*t1*t2;
+	t4 = 32*t3;
+	t5 = t4/3;
+	t6 = 5+3;
+	t7 = 12+4;
+	t8 = t7+2;
+	t9 = t0+t1;
+	printf(" ", t0);
+	printf(" ", t1);
+	printf(" ", t2);
+	printf(" ", t3);
+	printf(" ", t4);
+	printf(" ", t5);
+	printf(" ", t6);
+	printf(" ", t7);
+	printf(" ", t8);
+	printf(" ", t9);
+	
+}
+void main(){
+	int i;
+	int v0, v1, v2, v3, v4, v5, v6, v7, v8;
+	i = 0;
+	do{
+		v0 = i+1;
+		v1 = i*5;
+		v2 = i/3;
+		v3 = i-6;
+		v4 = i*i;
+		v5 = i+i*i;
+		v6 = 6+v5;
+		v7 = v1+v0;
+		v8 = v1+v0;
+		printf("|", v0);
+		printf("|", v1);
+		printf("|", v2);
+		printf("|", v3);
+		printf("|", v4);
+		printf("|", v5);
+		printf("|", v6);
+		printf("|", v7);
+		printf("|", v8);
+		i= i +1;	
+	}while(i<10);
+	oneBlock(v8);
+}

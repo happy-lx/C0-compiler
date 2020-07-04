@@ -1,0 +1,38 @@
+int IntArray[10];
+
+int LinearSearch(int Begin, int End, int Target) {
+  if (Begin > End) {
+    printf("Invalid Range");
+    return (-1);
+  }
+  if(Begin < End){
+   do{
+    if (IntArray[Begin] == Target)
+      return (Begin);
+    Begin = Begin + 1;
+  }while (Begin < End)
+  }
+
+  return (-1);
+}
+
+void InitializeIntArray(int a) {
+  IntArray[0] = 0;
+  IntArray[1] = 1;
+  IntArray[2] = 2;
+  IntArray[3] = 3;
+  IntArray[4] = 4;
+  IntArray[5] = 5;
+  IntArray[6] = 6;
+  IntArray[7] = 7;
+  IntArray[8] = 8;
+  IntArray[9] = 9;
+}
+
+void main() {
+  InitializeIntArray(0);
+  printf("Test LinearSearch:");
+  printf("Expected 0: ", LinearSearch(0, 10, 0));
+  printf("Expected 9: ", LinearSearch(0, 10, 9));
+  printf("Expected -1: ", LinearSearch(0, 10, 10));
+}

@@ -1,0 +1,59 @@
+int IntFromChar(char CharArg) {
+  return((CharArg));
+}
+
+int IsDigit(char CharVal) {
+  int IntVal;
+  IntVal = IntFromChar(CharVal);
+
+  if (IntFromChar('0') <= IntVal)
+  if (IntFromChar('9') >= IntVal) return(1);
+  return(0);
+}
+
+int IsAlpha(char CharVal) {
+  int IntVal;
+  IntVal = IntFromChar(CharVal);
+
+  if (IntFromChar('a') <= IntVal)
+  if (IntFromChar('z') >= IntVal)
+    return(1);
+
+  if (IntFromChar('A') <= IntVal)
+  if (IntFromChar('Z') >= IntVal)
+    return(1);
+
+  return(0);
+}
+
+int IsAlnum(char CharVal) {
+  if (IsDigit(CharVal)) return(1);
+  if (IsAlpha(CharVal)) return(1);
+  return(0);
+}
+
+void TestIsDigit() {
+  printf("Expect 0: ", IsDigit('a'));
+  printf("Expect 0: ", IsDigit('A'));
+  printf("Expect 1: ", IsDigit('2'));
+}
+
+void TestIsAlpha() {
+  printf("Expect 0: ", IsAlpha('1'));
+  printf("Expect 1: ", IsAlpha('b'));
+  printf("Expect 1: ", IsAlpha('B'));
+}
+
+void TestIsAlnum() {
+  printf("Expect 1: ", IsAlnum('1'));
+  printf("Expect 1: ", IsAlnum('b'));
+  printf("Expect 1: ", IsAlnum('B'));
+  printf("Expect 0: ", IsAlnum('_'));
+}
+
+void main() {
+  printf("Test Ctypes:");
+  TestIsDigit();
+  TestIsAlpha();
+  TestIsAlnum();
+}

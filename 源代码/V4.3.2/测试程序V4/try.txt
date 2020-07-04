@@ -1,0 +1,18 @@
+int func(int a){
+	return(1);
+}
+int foo1(){
+	return(1);
+}
+int foo2(){
+	return(2);
+}
+void main(){
+	int a, b, c;
+	a = foo1();
+	b = foo2();
+	c = (a+b)+func(a+b) +(a+b);
+	printf(a);
+	printf(b);
+	printf(c);
+}
